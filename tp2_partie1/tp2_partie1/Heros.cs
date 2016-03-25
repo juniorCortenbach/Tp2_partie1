@@ -102,7 +102,7 @@ namespace tp2_partie1
         #endregion
 
 
-         #region CONSTRUCTEUR
+        #region CONSTRUCTEUR
 
         /// <summary>
         /// Constructeur de la class héros 
@@ -121,7 +121,6 @@ namespace tp2_partie1
             this._rarete = rarete;
             this._classHero = classHero;
             this._ptsVie = ptsVie;
-
         }
        #endregion
 
