@@ -59,5 +59,15 @@ namespace tp2_partie1.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondDuFormulaire1 {
+            get {
+                object obj = ResourceManager.GetObject("FondDuFormulaire1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
