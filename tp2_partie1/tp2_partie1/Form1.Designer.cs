@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tblCarte = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnImages = new System.Windows.Forms.Button();
             this.lblAffichage = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnTablau = new System.Windows.Forms.Button();
             this.imgCartes = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCréer = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnModifier = new System.Windows.Forms.Button();
             this.lblDeck = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tblCarte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCartes)).BeginInit();
@@ -51,15 +51,15 @@
             this.tblCarte.Size = new System.Drawing.Size(450, 340);
             this.tblCarte.TabIndex = 0;
             // 
-            // button1
+            // btnImages
             // 
-            this.button1.Location = new System.Drawing.Point(12, 47);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 34);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Images";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnImages.Location = new System.Drawing.Point(12, 47);
+            this.btnImages.Name = "btnImages";
+            this.btnImages.Size = new System.Drawing.Size(118, 34);
+            this.btnImages.TabIndex = 1;
+            this.btnImages.Text = "Images";
+            this.btnImages.UseVisualStyleBackColor = true;
+            this.btnImages.Click += new System.EventHandler(this.btnImages_Click_1);
             // 
             // lblAffichage
             // 
@@ -73,15 +73,15 @@
             this.lblAffichage.TabIndex = 2;
             this.lblAffichage.Text = "Affichage";
             // 
-            // button2
+            // btnTablau
             // 
-            this.button2.Location = new System.Drawing.Point(136, 47);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 34);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Tabulaire";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTablau.Location = new System.Drawing.Point(136, 47);
+            this.btnTablau.Name = "btnTablau";
+            this.btnTablau.Size = new System.Drawing.Size(118, 34);
+            this.btnTablau.TabIndex = 3;
+            this.btnTablau.Text = "Tabulaire";
+            this.btnTablau.UseVisualStyleBackColor = true;
+            this.btnTablau.Click += new System.EventHandler(this.button2_Click);
             // 
             // imgCartes
             // 
@@ -91,14 +91,15 @@
             this.imgCartes.TabIndex = 4;
             this.imgCartes.TabStop = false;
             // 
-            // button3
+            // btnCréer
             // 
-            this.button3.Location = new System.Drawing.Point(12, 142);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 34);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Charger";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCréer.Location = new System.Drawing.Point(12, 142);
+            this.btnCréer.Name = "btnCréer";
+            this.btnCréer.Size = new System.Drawing.Size(118, 34);
+            this.btnCréer.TabIndex = 5;
+            this.btnCréer.Text = "Créer";
+            this.btnCréer.UseVisualStyleBackColor = true;
+            this.btnCréer.Click += new System.EventHandler(this.btnCréer_Click);
             // 
             // label1
             // 
@@ -112,14 +113,15 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Gestion des decks";
             // 
-            // button4
+            // btnModifier
             // 
-            this.button4.Location = new System.Drawing.Point(136, 142);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 34);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Modifier";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnModifier.Location = new System.Drawing.Point(136, 142);
+            this.btnModifier.Name = "btnModifier";
+            this.btnModifier.Size = new System.Drawing.Size(118, 34);
+            this.btnModifier.TabIndex = 7;
+            this.btnModifier.Text = "Modifier";
+            this.btnModifier.UseVisualStyleBackColor = true;
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
             // 
             // lblDeck
             // 
@@ -139,13 +141,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(974, 532);
             this.Controls.Add(this.lblDeck);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnModifier);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnCréer);
             this.Controls.Add(this.imgCartes);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnTablau);
             this.Controls.Add(this.lblAffichage);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnImages);
             this.Controls.Add(this.tblCarte);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -160,13 +162,13 @@
         #endregion
 
         private System.Windows.Forms.DataGridView tblCarte;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnImages;
         private System.Windows.Forms.Label lblAffichage;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTablau;
         private System.Windows.Forms.PictureBox imgCartes;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCréer;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnModifier;
         private System.Windows.Forms.Label lblDeck;
     }
 }

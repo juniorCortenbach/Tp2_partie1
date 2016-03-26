@@ -1,12 +1,24 @@
-﻿using System;
+﻿#region MÉTADONNÉES
+/* Nom du fichier         : A CHANGER
+ * Nom du programmeur     : Maxim Desloges et Junior Cortenbach
+ * Date                   : 30 mars 2016
+ */
+#endregion
+
+
+#region USING
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+#endregion
+
 namespace tp2_partie1
 {
-    class Cartes
+    public class Cartes
     {
         #region ATTRIBUTS
 

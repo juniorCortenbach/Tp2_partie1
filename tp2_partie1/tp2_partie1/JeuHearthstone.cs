@@ -1,17 +1,22 @@
-﻿/* Nom du fichier         : JeuHearthstone
+﻿#region MÉTADONNÉES
+/* Nom du fichier         : JeuHearthstone
  * Nom du programmeur     : Maxim Desloges et Junior Cortenbach
  * Date                   : 30 mars 2016
  */
+#endregion
 
+#region USING
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+#endregion
+
 
 namespace tp2_partie1
 {
-    class JeuHearthstone
+    public class JeuHearthstone
     {
         #region CONSTANTES
         /// <summary>
@@ -23,15 +28,19 @@ namespace tp2_partie1
         #region ATTRIBUTS
 
         /// <summary>
-        /// Tableaux d'héros
+        /// Tableaux de decks
         /// </summary>
-        private Heros[] _lesHeros;
+        private Deck[] _lesDecksDuJeu;
 
         /// <summary>
-        /// Tableaux de cartes
+        /// Tableaux d'héros
         /// </summary>
-        private Cartes[] _lesCartes;
+        private Heros[] _lesHerosDeReference;
 
+        /// <summary>
+        /// Tableaux de carte
+        /// </summary>
+        private Cartes[] _lesCartesDeReferences;
 
         #endregion
 
@@ -41,8 +50,6 @@ namespace tp2_partie1
         /// </summary>
         public JeuHearthstone()
         {
-            this._lesCartes = Utilitaire.ChargerCartes("cards-collectible.xml");
-        //    this._lesHeros = Utilitaire.ChargerHeros("cards-collectible.xml");
 
         }
 
@@ -55,19 +62,57 @@ namespace tp2_partie1
         /// </summary>
         public Heros[] LesHeros
         {
-            get { return this._lesHeros; }
-            private set { this._lesHeros = value; }
+            get { return this._lesHerosDeReference; }
+            private set { this._lesHerosDeReference = value; }
         }
         /// <summary>
         /// Retourne un Tableaux de Cartes
         /// </summary>
-        public Cartes[] LesCartes
+        public Deck[] LesDecks
         {
-            get { return this._lesCartes; }
-            private set { this._lesCartes = value; }
+            get { return this._lesDecksDuJeu; }
+            private set { this._lesDecksDuJeu = value; }
         }
 
+        /// <summary>
+        /// Tableaux de carte
+        /// </summary>
+        public Cartes[] LesCartes
+        {
+            get { return this._lesCartesDeReferences; }
+            set { this._lesCartesDeReferences = value; }
+        }
 
-       #endregion
+        #endregion
+
+       #region MÉTHODE
+
+        /// <summary>
+        /// Au démarrage, les données sur les héros doivent être chargées dans des tableaux d’objets, et ce, à partir du fichier XML fourni.
+        /// </summary>
+        /// <returns></returns>
+        public Heros[] ChargerXmlHeros()
+        {
+            return null;
+        }
+        /// <summary>
+        /// Au démarrage, les données sur les cartes de Hearthstone doivent être chargées dans des tableaux d’objets, et ce, à partir du fichier XML fourni.
+        /// </summary>
+        /// <returns></returns>
+        public Cartes[] ChargeXmlCartes()
+        {
+            return null;
+        }
+
+        /// <summary>
+        /// Créer un nouveau deck en respectant les règles de conception décrites
+        /// </summary>
+        /// <returns></returns>
+        public Deck[] AjouterUnDeck()
+        {
+            return null;
+        }
+
+        #endregion
     }
 }

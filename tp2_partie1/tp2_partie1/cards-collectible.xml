@@ -42,7 +42,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -56,7 +56,7 @@
 		<name>Sprint</name>
 		<id>CS2_077</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -73,7 +73,7 @@
 		<name>Holy Light</name>
 		<id>CS2_089</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -110,7 +110,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -152,7 +152,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -184,7 +184,7 @@
 		<health>8</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Luca Zontini</artist>
@@ -199,7 +199,7 @@
 		<name>Healing Wave</name>
 		<id>AT_048</id>
 		<set>TGT</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -213,7 +213,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -227,7 +227,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>E.M. Gist</artist>
@@ -241,7 +241,7 @@
 		<name>Call Pet</name>
 		<id>GVG_017</id>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -289,7 +289,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -325,7 +325,7 @@
 		<name>Lava Shock</name>
 		<id>BRM_011</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -381,7 +381,7 @@
 		<health>8</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -396,7 +396,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -456,7 +456,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -513,7 +513,7 @@
 		<id>EX1_133</id>
 		<type>WEAPON</type>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -530,7 +530,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>NAXX</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -550,7 +550,7 @@
 		<name>Animal Companion</name>
 		<id>NEW1_031</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Dan Dos Santos</artist>
@@ -567,7 +567,7 @@
 		<name>Convert</name>
 		<id>AT_015</id>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -581,7 +581,7 @@
 		<name>Mind Blast</name>
 		<id>DS1_233</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<artist>Tyler Walpole</artist>
@@ -594,7 +594,7 @@
 		<id>AT_051</id>
 		<set>TGT</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -611,7 +611,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<artist>Dan Scott</artist>
@@ -627,7 +627,7 @@
 		<id>EX1_241</id>
 		<set>EXPERT1</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -644,7 +644,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -660,7 +660,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<set>BRM</set>
@@ -677,7 +677,7 @@
 		<name>Dragon's Breath</name>
 		<id>BRM_003</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -691,7 +691,7 @@
 		<name>Arcane Intellect</name>
 		<id>CS2_023</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -722,7 +722,7 @@
 		<howToEarn>Unlocked at Level 1.</howToEarn>
 		<type>WEAPON</type>
 		<set>CORE</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -801,7 +801,7 @@
 		<name>Bash</name>
 		<id>AT_064</id>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -824,7 +824,7 @@
 			<REQ_TARGET_TO_PLAY>0</REQ_TARGET_TO_PLAY>
 		</playRequirements>
 		<howToEarn>Unlocked at Level 2.</howToEarn>
-		<flavor>Balance is important to druids.  This card is perfectly balanced.</flavor>
+		<flavor>Balance is important to Druids.  This card is perfectly balanced.</flavor>
 		<text>
 			Deal $5 damage.
 		Draw a card.</text>
@@ -835,7 +835,7 @@
 		<name>Starfire</name>
 		<id>EX1_173</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<artist>Jeff Haynie</artist>
@@ -850,7 +850,7 @@
 		<name>Darkbomb</name>
 		<id>GVG_015</id>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -865,7 +865,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -965,7 +965,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -989,7 +989,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -1007,7 +1007,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>9</attack>
@@ -1025,7 +1025,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -1047,7 +1047,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -1065,7 +1065,7 @@
 		<name>Hex</name>
 		<id>EX1_246</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -1097,7 +1097,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -1108,7 +1108,7 @@
 		<rarity>FREE</rarity>
 		<howToEarnGolden>Unlocked at Druid Level 53.</howToEarnGolden>
 		<name>Nightblade</name>
-		<flavor>Your face is the place you'd probably least like a dagger, and where rogues are most likely to deliver them.</flavor>
+		<flavor>Your face is the place you'd probably least like a dagger, and where Rogues are most likely to deliver them.</flavor>
 		<id>EX1_593</id>
 		<health>4</health>
 		<type>MINION</type>
@@ -1144,7 +1144,7 @@
 		<id>EX1_567</id>
 		<type>WEAPON</type>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1175,7 +1175,7 @@
 		<name>Living Roots</name>
 		<id>AT_037</id>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>0</attack>
@@ -1191,7 +1191,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1206,7 +1206,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1224,7 +1224,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -1238,7 +1238,7 @@
 		<name>Holy Nova</name>
 		<id>CS1_112</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1254,7 +1254,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1271,7 +1271,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1287,7 +1287,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -1301,7 +1301,7 @@
 		<name>Savage Roar</name>
 		<id>CS2_011</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1316,7 +1316,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -1357,12 +1357,12 @@
 		<name>Assassinate</name>
 		<id>CS2_076</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
 		<playRequirements>
-			<REQ_DAMAGED_TARGET>0</REQ_DAMAGED_TARGET>
+			<REQ_DAMageD_TARGET>0</REQ_DAMageD_TARGET>
 			<REQ_MINION_TARGET>0</REQ_MINION_TARGET>
 			<REQ_TARGET_TO_PLAY>0</REQ_TARGET_TO_PLAY>
 			<REQ_ENEMY_TARGET>0</REQ_ENEMY_TARGET>
@@ -1377,7 +1377,7 @@
 		<name>Execute</name>
 		<id>CS2_108</id>
 		<type>SPELL</type>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -1392,7 +1392,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -1410,7 +1410,7 @@
 		<id>CS2_024</id>
 		<type>SPELL</type>
 		<mechanics>FREEZE</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1426,7 +1426,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>0</attack>
@@ -1440,7 +1440,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1476,7 +1476,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Zoltan &amp; Gabor</artist>
@@ -1493,7 +1493,7 @@
 		<id>EX1_332</id>
 		<set>EXPERT1</set>
 		<mechanics>SILENCE</mechanics>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1524,7 +1524,7 @@
 		<id>EX1_248</id>
 		<set>EXPERT1</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Justin Sweet</artist>
@@ -1539,7 +1539,7 @@
 		<name>Holy Wrath</name>
 		<id>EX1_365</id>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Wayne Reynolds</artist>
@@ -1554,7 +1554,7 @@
 		<name>Brawl</name>
 		<id>EX1_407</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1586,7 +1586,7 @@
 		<name>Velen's Chosen</name>
 		<id>GVG_010</id>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1601,7 +1601,7 @@
 		<id>GVG_059</id>
 		<type>WEAPON</type>
 		<set>GVG</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1667,7 +1667,7 @@
 		<name>Twisting Nether</name>
 		<id>EX1_312</id>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<artist>Christopher Moeller</artist>
@@ -1679,7 +1679,7 @@
 		<name>Astral Communion</name>
 		<id>AT_043</id>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -1751,7 +1751,7 @@
 		<name>Unstable Portal</name>
 		<id>GVG_003</id>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Daren Bader</artist>
@@ -1764,7 +1764,7 @@
 		<id>EX1_533</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Zoltan &amp; Gabor</artist>
@@ -1777,7 +1777,7 @@
 		<id>EX1_130</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -1892,14 +1892,14 @@
 		<rarity>COMMON</rarity>
 		<type>SPELL</type>
 		<playRequirements>
-			<REQ_DAMAGED_TARGET>0</REQ_DAMAGED_TARGET>
+			<REQ_DAMageD_TARGET>0</REQ_DAMageD_TARGET>
 			<REQ_MINION_TARGET>0</REQ_MINION_TARGET>
 			<REQ_TARGET_TO_PLAY>0</REQ_TARGET_TO_PLAY>
 		</playRequirements>
 		<name>Rampage</name>
 		<id>CS2_104</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1932,7 +1932,7 @@
 		<id>EX1_245</id>
 		<set>EXPERT1</set>
 		<mechanics>SILENCE</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -1946,7 +1946,7 @@
 		<name>Mind Vision</name>
 		<id>CS2_003</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -1954,13 +1954,13 @@
 		<text>Choose One - Transform to gain Charge; or +1/+1 and Stealth.</text>
 		<artist>Arthur Gimaldinov</artist>
 		<rarity>COMMON</rarity>
-		<flavor>That's saberTEETH, not like curved pirate blades.  That's a different kind of druid.  Druid of the Curved Pirate Blades.</flavor>
+		<flavor>That's saberTEETH, not like curved pirate blades.  That's a different kind of Druid.  Druid of the Curved Pirate Blades.</flavor>
 		<name>Druid of the Saber</name>
 		<id>AT_042</id>
 		<health>1</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -2006,7 +2006,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -2066,7 +2066,7 @@
 		<id>EX1_238</id>
 		<set>EXPERT1</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Mike Sass</artist>
@@ -2084,7 +2084,7 @@
 		<name>Power Word: Glory</name>
 		<id>AT_013</id>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<set>LOE</set>
@@ -2105,7 +2105,7 @@
 		<name>Entomb</name>
 		<id>LOE_104</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -2123,7 +2123,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>LOE</set>
@@ -2141,7 +2141,7 @@
 		<name>Explorer's Hat</name>
 		<id>LOE_105</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -2160,7 +2160,7 @@
 		<health>8</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -2202,7 +2202,7 @@
 		<id>EX1_626</id>
 		<set>EXPERT1</set>
 		<mechanics>SILENCE</mechanics>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -2220,7 +2220,7 @@
 		<name>Polymorph</name>
 		<id>CS2_022</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -2234,7 +2234,7 @@
 		<id>GVG_054</id>
 		<type>WEAPON</type>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -2262,7 +2262,7 @@
 		<name>Claw</name>
 		<id>CS2_005</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -2311,7 +2311,7 @@
 		<name>Mirror Image</name>
 		<id>CS2_027</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Michal Ivan</artist>
@@ -2323,7 +2323,7 @@
 		<name>Equality</name>
 		<id>EX1_619</id>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -2338,7 +2338,7 @@
 		<id>AT_050</id>
 		<type>WEAPON</type>
 		<set>TGT</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -2367,7 +2367,7 @@
 		<name>Inner Rage</name>
 		<id>EX1_607</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -2386,7 +2386,7 @@
 		<name>Charge</name>
 		<id>CS2_103</id>
 		<type>SPELL</type>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<set>BRM</set>
@@ -2405,7 +2405,7 @@
 		<name>Quick Shot</name>
 		<id>BRM_013</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -2432,7 +2432,7 @@
 		<name>Soul of the Forest</name>
 		<id>EX1_158</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -2451,7 +2451,7 @@
 		<name>Hammer of Wrath</name>
 		<id>CS2_094</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -2465,7 +2465,7 @@
 		<health>8</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -2485,11 +2485,11 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>Dave Rapoza</artist>
-		<flavor>It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.</flavor>
+		<flavor>It is true that some Druids are savage, but others still enjoy a quiet moment and a spot of tea.</flavor>
 		<text>Deal damage equal to your hero's Attack to a minion.</text>
 		<cost>1</cost>
 		<rarity>RARE</rarity>
@@ -2501,7 +2501,7 @@
 		<name>Savagery</name>
 		<id>EX1_578</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -2517,7 +2517,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -2536,7 +2536,7 @@
 		<id>CS2_037</id>
 		<type>SPELL</type>
 		<mechanics>FREEZE</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -2551,7 +2551,7 @@
 		<howToEarn>Unlocked at Level 10.</howToEarn>
 		<type>WEAPON</type>
 		<set>CORE</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Trevor Jacobs</artist>
@@ -2566,7 +2566,7 @@
 		<name>Force of Nature</name>
 		<id>EX1_571</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>10</attack>
@@ -2596,7 +2596,7 @@
 		<name>Poison Seeds</name>
 		<id>FP1_019</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<artist>Mike Sass</artist>
@@ -2612,7 +2612,7 @@
 		<name>Polymorph: Boar</name>
 		<id>AT_005</id>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Leo Che</artist>
@@ -2629,7 +2629,7 @@
 		<id>EX1_275</id>
 		<set>EXPERT1</set>
 		<mechanics>FREEZE</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -2647,7 +2647,7 @@
 		<name>Hunter's Mark</name>
 		<id>CS2_084</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -2684,7 +2684,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -2750,7 +2750,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -2782,7 +2782,7 @@
 		<name>Ancestral Spirit</name>
 		<id>CS2_038</id>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -2812,7 +2812,7 @@
 		<id>FP1_020</id>
 		<type>SPELL</type>
 		<mechanics>SECRET</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -2828,7 +2828,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -2859,7 +2859,7 @@
 		<name>Unleash the Hounds</name>
 		<id>EX1_538</id>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -2886,7 +2886,7 @@
 		<id>DS1_188</id>
 		<type>WEAPON</type>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -2933,7 +2933,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -2964,7 +2964,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<artist>Efrem Palacios</artist>
@@ -2981,7 +2981,7 @@
 		<name>Recycle</name>
 		<id>GVG_031</id>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -3016,7 +3016,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Jaina Proudmoore</name>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 		<id>HERO_08</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -3083,7 +3083,7 @@
 		<id>EX1_289</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -3097,7 +3097,7 @@
 		<name>Sinister Strike</name>
 		<id>CS2_075</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -3126,7 +3126,7 @@
 		<id>EX1_136</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Matt Dixon</artist>
@@ -3139,7 +3139,7 @@
 		<id>AT_022</id>
 		<set>TGT</set>
 		<mechanics>INVISIBLE_DEATHRATTLE</mechanics>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -3169,7 +3169,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -3187,7 +3187,7 @@
 		<name>Sacrificial Pact</name>
 		<id>NEW1_003</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<artist>Raymond Swanland</artist>
@@ -3202,7 +3202,7 @@
 		<name>Lay on Hands</name>
 		<id>EX1_354</id>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -3219,7 +3219,7 @@
 		<name>Shiv</name>
 		<id>EX1_278</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -3237,7 +3237,7 @@
 		<name>Swipe</name>
 		<id>CS2_012</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -3265,7 +3265,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -3294,7 +3294,7 @@
 		<howToEarn>Unlocked at Level 2.</howToEarn>
 		<type>WEAPON</type>
 		<set>CORE</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>Nutthapon Petchthai</artist>
@@ -3310,7 +3310,7 @@
 		<name>Flame Lance</name>
 		<id>AT_001</id>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -3329,7 +3329,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Garner</artist>
@@ -3342,7 +3342,7 @@
 		<id>EX1_384</id>
 		<set>EXPERT1</set>
 		<mechanics>IMMUNE_TO_SPELL_POWER</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Zoltan &amp; Gabor</artist>
@@ -3355,7 +3355,7 @@
 		<id>AT_053</id>
 		<set>TGT</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Dave Kendall</artist>
@@ -3372,7 +3372,7 @@
 		<name>Shadowflame</name>
 		<id>EX1_303</id>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -3405,7 +3405,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -3442,7 +3442,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -3475,7 +3475,7 @@
 		<name>Gang Up</name>
 		<id>BRM_007</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -3489,7 +3489,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -3503,7 +3503,7 @@
 		<name>Heroic Strike</name>
 		<id>CS2_105</id>
 		<type>SPELL</type>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -3576,7 +3576,7 @@
 		<name>Lock and Load</name>
 		<id>AT_061</id>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -3618,7 +3618,7 @@
 		<name>Upgrade!</name>
 		<id>EX1_409</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Horley Orlandelli</artist>
@@ -3630,7 +3630,7 @@
 		<name>Shadowform</name>
 		<id>EX1_625</id>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -3667,7 +3667,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -3702,7 +3702,7 @@
 		<name>Mindgames</name>
 		<id>EX1_345</id>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>0</attack>
@@ -3717,7 +3717,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -3738,7 +3738,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -3815,7 +3815,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -3830,7 +3830,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -3860,7 +3860,7 @@
 		<name>Blade Flurry</name>
 		<id>CS2_233</id>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -3905,7 +3905,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -3925,7 +3925,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Rexxar</name>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 		<id>HERO_05</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -3944,7 +3944,7 @@
 		<name>Pyroblast</name>
 		<id>EX1_279</id>
 		<set>EXPERT1</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Tyler Walpole</artist>
@@ -3960,7 +3960,7 @@
 		<name>Blessed Champion</name>
 		<id>EX1_355</id>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -3974,7 +3974,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -4005,7 +4005,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -4020,7 +4020,7 @@
 		<health>9</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Wayne Reynolds</artist>
@@ -4032,7 +4032,7 @@
 		<name>Commanding Shout</name>
 		<id>NEW1_036</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -4058,7 +4058,7 @@
 		<name>Far Sight</name>
 		<id>CS2_053</id>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -4086,7 +4086,7 @@
 		<id>GVG_057</id>
 		<set>GVG</set>
 		<mechanics>IMMUNE_TO_SPELL_POWER</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -4138,7 +4138,7 @@
 		<name>Dark Wispers</name>
 		<id>GVG_041</id>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -4169,7 +4169,7 @@
 		<name>Mulch</name>
 		<id>AT_044</id>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -4183,7 +4183,7 @@
 		<name>Hellfire</name>
 		<id>CS2_062</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -4197,7 +4197,7 @@
 		<id>EX1_366</id>
 		<type>WEAPON</type>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -4228,7 +4228,7 @@
 		<id>EX1_411</id>
 		<type>WEAPON</type>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -4244,7 +4244,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -4260,7 +4260,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -4302,7 +4302,7 @@
 		<name>Ball of Spiders</name>
 		<id>AT_062</id>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -4318,7 +4318,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -4333,7 +4333,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -4358,7 +4358,7 @@
 		<id>AT_002</id>
 		<set>TGT</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -4388,7 +4388,7 @@
 		<name>Siphon Soul</name>
 		<id>EX1_309</id>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -4403,7 +4403,7 @@
 		<id>AT_065</id>
 		<type>WEAPON</type>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -4454,7 +4454,7 @@
 		<playRequirements>
 			<REQ_MINION_TARGET>0</REQ_MINION_TARGET>
 			<REQ_TARGET_TO_PLAY>0</REQ_TARGET_TO_PLAY>
-			<REQ_UNDAMAGED_TARGET>0</REQ_UNDAMAGED_TARGET>
+			<REQ_UNDAMageD_TARGET>0</REQ_UNDAMageD_TARGET>
 		</playRequirements>
 		<howToEarn>Unlocked at Level 1.</howToEarn>
 		<flavor>It's funny how often yelling &quot;Look over there!&quot; gets your opponent to turn around.</flavor>
@@ -4466,7 +4466,7 @@
 		<name>Backstab</name>
 		<id>CS2_072</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -4571,7 +4571,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -4590,7 +4590,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -4630,7 +4630,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Anduin Wrynn</name>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 		<id>HERO_09</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -4639,7 +4639,7 @@
 	<card>
 		<set>HERO_SKINS</set>
 		<name>Medivh</name>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 		<id>HERO_08a</id>
 		<health>30</health>
 		<rarity>EPIC</rarity>
@@ -4655,7 +4655,7 @@
 		<name>Sense Demons</name>
 		<id>EX1_317</id>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<artist>Jason Chan</artist>
@@ -4668,7 +4668,7 @@
 		<id>EX1_287</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>9</attack>
@@ -4695,7 +4695,7 @@
 		<id>AT_060</id>
 		<set>TGT</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>9</attack>
@@ -4746,7 +4746,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -4761,7 +4761,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -4776,7 +4776,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>Gonzalo Ordonez</artist>
@@ -4789,7 +4789,7 @@
 		<id>tt_010</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Tom Baxa</artist>
@@ -4805,7 +4805,7 @@
 		<name>Explosive Shot</name>
 		<id>EX1_537</id>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Garner</artist>
@@ -4817,7 +4817,7 @@
 		<name>Echo of Medivh</name>
 		<id>GVG_005</id>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>BRM</set>
@@ -4831,7 +4831,7 @@
 		<name>Demonwrath</name>
 		<id>BRM_005</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<artist>Mike Hayes</artist>
@@ -4843,7 +4843,7 @@
 		<name>Muster for Battle</name>
 		<id>GVG_061</id>
 		<set>GVG</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -4858,7 +4858,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -4901,7 +4901,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -4936,7 +4936,7 @@
 		<name>Windfury</name>
 		<id>CS2_039</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -4953,7 +4953,7 @@
 		<name>Deadly Poison</name>
 		<id>CS2_074</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -4968,7 +4968,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<set>LOE</set>
@@ -4982,7 +4982,7 @@
 		<name>Anyfin Can Happen</name>
 		<id>LOE_026</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>9</attack>
@@ -4997,7 +4997,7 @@
 		<health>9</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -5015,7 +5015,7 @@
 		<name>Mortal Coil</name>
 		<id>EX1_302</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<artist>Ben Wootten</artist>
@@ -5031,7 +5031,7 @@
 		<name>Demonfire</name>
 		<id>EX1_596</id>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -5046,7 +5046,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Raymond Swanland</artist>
@@ -5062,7 +5062,7 @@
 		<name>Wrath</name>
 		<id>EX1_154</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<artist>Daren Bader</artist>
@@ -5074,7 +5074,7 @@
 		<name>Beneath the Grounds</name>
 		<id>AT_035</id>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>Mauricio Herrera</artist>
@@ -5089,7 +5089,7 @@
 		<name>Flamecannon</name>
 		<id>GVG_001</id>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -5118,7 +5118,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -5136,7 +5136,7 @@
 		<name>Shadow Bolt</name>
 		<id>CS2_057</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -5167,7 +5167,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Lorenzo Minaca</artist>
@@ -5180,7 +5180,7 @@
 		<id>EX1_609</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>9</attack>
@@ -5196,7 +5196,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -5216,7 +5216,7 @@
 		<name>Power Word: Shield</name>
 		<id>CS2_004</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -5231,7 +5231,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Jonboy Meyers</artist>
@@ -5249,7 +5249,7 @@
 		<name>Seal of Champions</name>
 		<id>AT_074</id>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -5266,7 +5266,7 @@
 		<name>Healing Touch</name>
 		<id>CS2_007</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<artist>Richard Wright</artist>
@@ -5282,7 +5282,7 @@
 		<name>Starfall</name>
 		<id>NEW1_007</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -5311,7 +5311,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -5326,7 +5326,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -5379,7 +5379,7 @@
 		<name>Bane of Doom</name>
 		<id>EX1_320</id>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -5407,7 +5407,7 @@
 		<id>EX1_379</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<howToEarn>Unlocked at Level 8.</howToEarn>
@@ -5420,7 +5420,7 @@
 		<name>Vanish</name>
 		<id>NEW1_004</id>
 		<set>CORE</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -5452,7 +5452,7 @@
 		<name>Naturalize</name>
 		<id>EX1_161</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>9</attack>
@@ -5484,7 +5484,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -5501,7 +5501,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -5530,7 +5530,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -5563,7 +5563,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Garrosh Hellscream</name>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 		<id>HERO_01</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -5585,7 +5585,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -5602,7 +5602,7 @@
 		<health>8</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>LOE</set>
@@ -5618,7 +5618,7 @@
 		<name>Everyfin is Awesome</name>
 		<id>LOE_113</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Chris Seaman</artist>
@@ -5631,7 +5631,7 @@
 		<id>CS2_028</id>
 		<set>EXPERT1</set>
 		<mechanics>FREEZE</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -5663,12 +5663,12 @@
 		<health>15</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
 		<name>Uther Lightbringer</name>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 		<id>HERO_04</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -5688,7 +5688,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -5705,7 +5705,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Sean O'Danield</artist>
@@ -5717,7 +5717,7 @@
 		<name>Confuse</name>
 		<id>AT_016</id>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -5750,7 +5750,7 @@
 		<name>Blessing of Might</name>
 		<id>CS2_087</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Graven Tung</artist>
@@ -5767,12 +5767,12 @@
 		<name>Shadowstep</name>
 		<id>EX1_144</id>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>HERO_SKINS</set>
 		<name>Magni Bronzebeard</name>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 		<id>HERO_01a</id>
 		<health>30</health>
 		<rarity>EPIC</rarity>
@@ -5791,7 +5791,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Gabor Szikszai</artist>
@@ -5807,7 +5807,7 @@
 		<name>Arcane Blast</name>
 		<id>AT_004</id>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -5825,7 +5825,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Clint Langley</artist>
@@ -5841,7 +5841,7 @@
 		<name>Mark of Nature</name>
 		<id>EX1_155</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -5857,7 +5857,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -5902,7 +5902,7 @@
 		<name>Crush</name>
 		<id>GVG_052</id>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -5935,7 +5935,7 @@
 		<id>EX1_137</id>
 		<set>EXPERT1</set>
 		<mechanics>COMBO</mechanics>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>BRM</set>
@@ -5949,7 +5949,7 @@
 		<name>Solemn Vigil</name>
 		<id>BRM_001</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Tom Baxa</artist>
@@ -5961,7 +5961,7 @@
 		<name>Bite</name>
 		<id>EX1_570</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -5976,7 +5976,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -5994,7 +5994,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -6054,7 +6054,7 @@
 		<id>GVG_043</id>
 		<type>WEAPON</type>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Jonboy Meyers</artist>
@@ -6070,7 +6070,7 @@
 		<name>Powershot</name>
 		<id>AT_056</id>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -6088,7 +6088,7 @@
 		<name>Humility</name>
 		<id>EX1_360</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -6137,7 +6137,7 @@
 		<name>Divine Spirit</name>
 		<id>CS2_236</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<artist>Raymond Swanland</artist>
@@ -6153,7 +6153,7 @@
 		<name>Shield Slam</name>
 		<id>EX1_410</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<set>BRM</set>
@@ -6167,7 +6167,7 @@
 		<name>Revenge</name>
 		<id>BRM_015</id>
 		<type>SPELL</type>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Daarken</artist>
@@ -6179,7 +6179,7 @@
 		<name>Circle of Healing</name>
 		<id>EX1_621</id>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -6197,7 +6197,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>NAXX</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Horley Orlandelli</artist>
@@ -6212,7 +6212,7 @@
 		<name>Battle Rage</name>
 		<id>EX1_392</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -6242,7 +6242,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -6323,7 +6323,7 @@
 		<id>AT_073</id>
 		<set>TGT</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -6369,7 +6369,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Steve Prescott</artist>
@@ -6381,7 +6381,7 @@
 		<name>Tree of Life</name>
 		<id>GVG_033</id>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -6435,7 +6435,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -6483,7 +6483,7 @@
 		<name>Reincarnate</name>
 		<id>FP1_025</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -6512,7 +6512,7 @@
 		<id>EX1_536</id>
 		<type>WEAPON</type>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -6530,7 +6530,7 @@
 		<name>Mark of the Wild</name>
 		<id>CS2_009</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -6568,7 +6568,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -6591,7 +6591,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -6654,7 +6654,7 @@
 		<name>Shadow Madness</name>
 		<id>EX1_334</id>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -6675,7 +6675,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -6709,7 +6709,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -6727,7 +6727,7 @@
 		<name>Blessing of Kings</name>
 		<id>CS2_092</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -6742,7 +6742,7 @@
 		<howToEarn>Unlocked at Level 1.</howToEarn>
 		<type>WEAPON</type>
 		<set>CORE</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -6762,7 +6762,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Gul'dan</name>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 		<id>HERO_07</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -6793,7 +6793,7 @@
 		<name>Flamestrike</name>
 		<id>CS2_032</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -6809,7 +6809,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -6855,7 +6855,7 @@
 		<id>EX1_295</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -6892,7 +6892,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -6909,7 +6909,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>BRM</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -6940,7 +6940,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -6978,7 +6978,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -7010,7 +7010,7 @@
 		<name>Fireball</name>
 		<id>CS2_029</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -7028,7 +7028,7 @@
 		<name>Ancestral Healing</name>
 		<id>CS2_041</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -7043,7 +7043,7 @@
 		<id>GVG_036</id>
 		<type>WEAPON</type>
 		<set>GVG</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -7071,7 +7071,7 @@
 		<name>Flash Heal</name>
 		<id>AT_055</id>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -7108,7 +7108,7 @@
 		<name>Cleave</name>
 		<id>CS2_114</id>
 		<type>SPELL</type>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Zoltan &amp; Gabor</artist>
@@ -7123,7 +7123,7 @@
 		<name>Mortal Strike</name>
 		<id>EX1_408</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Mauricio Herrera</artist>
@@ -7135,7 +7135,7 @@
 		<name>Enter the Coliseum</name>
 		<id>AT_078</id>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Luca Zontini</artist>
@@ -7147,7 +7147,7 @@
 		<name>Lightbomb</name>
 		<id>GVG_008</id>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -7190,7 +7190,7 @@
 		<health>8</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -7207,7 +7207,7 @@
 		<name>Moonfire</name>
 		<id>CS2_008</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -7224,7 +7224,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -7252,7 +7252,7 @@
 		<name>Bolster</name>
 		<id>AT_068</id>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -7267,7 +7267,7 @@
 		<id>GVG_024</id>
 		<type>WEAPON</type>
 		<set>GVG</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -7282,7 +7282,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -7300,7 +7300,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -7314,7 +7314,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Howard Lyon</artist>
@@ -7330,7 +7330,7 @@
 		<name>Cobra Shot</name>
 		<id>GVG_073</id>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -7361,7 +7361,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -7380,7 +7380,7 @@
 		<name>Corruption</name>
 		<id>CS2_063</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -7421,7 +7421,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Raven Mimura</artist>
@@ -7434,7 +7434,7 @@
 		<id>EX1_294</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -7477,7 +7477,7 @@
 		<name>Arcane Explosion</name>
 		<id>CS2_025</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -7551,7 +7551,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -7566,7 +7566,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -7583,7 +7583,7 @@
 		<name>Kill Command</name>
 		<id>EX1_539</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -7601,7 +7601,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<set>LOE</set>
@@ -7617,7 +7617,7 @@
 		<name>Excavated Evil</name>
 		<id>LOE_111</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -7631,7 +7631,7 @@
 		<name>Bloodlust</name>
 		<id>CS2_046</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -7661,7 +7661,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -7678,7 +7678,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -7723,7 +7723,7 @@
 		<name>Fan of Knives</name>
 		<id>EX1_129</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -7770,7 +7770,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -7798,7 +7798,7 @@
 		<id>CS2_026</id>
 		<type>SPELL</type>
 		<mechanics>FREEZE</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -7816,7 +7816,7 @@
 		<name>Hand of Protection</name>
 		<id>EX1_371</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -7858,7 +7858,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>Matt Dixon</artist>
@@ -7870,7 +7870,7 @@
 		<name>Burgle</name>
 		<id>AT_033</id>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -7885,7 +7885,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -7933,7 +7933,7 @@
 		<name>Raven Idol</name>
 		<id>LOE_115</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -7963,7 +7963,7 @@
 		<name>Demonheart</name>
 		<id>GVG_019</id>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -8045,7 +8045,7 @@
 		<howToEarn>Unlocked in The Construct Quarter, in the Naxxramas adventure.</howToEarn>
 		<type>WEAPON</type>
 		<set>NAXX</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -8106,7 +8106,7 @@
 		<name>Totemic Might</name>
 		<id>EX1_244</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -8141,7 +8141,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Thrall</name>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 		<id>HERO_02</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -8225,7 +8225,7 @@
 		<name>Shadow Word: Pain</name>
 		<id>CS2_234</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -8243,7 +8243,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -8277,7 +8277,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>James Ryman</artist>
@@ -8290,7 +8290,7 @@
 		<id>EX1_132</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -8319,7 +8319,7 @@
 		<name>Tracking</name>
 		<id>DS1_184</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -8341,7 +8341,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -8368,7 +8368,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Malfurion Stormrage</name>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 		<id>HERO_06</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -8388,7 +8388,7 @@
 		<name>Curse of Rafaam</name>
 		<id>LOE_007</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -8421,7 +8421,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -8436,7 +8436,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -8468,7 +8468,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -8512,7 +8512,7 @@
 		<id>EX1_124</id>
 		<set>EXPERT1</set>
 		<mechanics>COMBO</mechanics>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -8539,7 +8539,7 @@
 		<id>EX1_611</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -8554,7 +8554,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Horley Orlandelli</artist>
@@ -8570,7 +8570,7 @@
 		<id>CS2_031</id>
 		<set>EXPERT1</set>
 		<mechanics>FREEZE</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -8586,7 +8586,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -8603,12 +8603,12 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
 		<howToEarn>Unlocked at Level 1.</howToEarn>
-		<flavor>Some druids still have flashbacks from strangers yelling &quot;Innervate me!!&quot; at them.</flavor>
+		<flavor>Some Druids still have flashbacks from strangers yelling &quot;Innervate me!!&quot; at them.</flavor>
 		<text>Gain 2 Mana Crystals this turn only.</text>
 		<cost>0</cost>
 		<artist>Doug Alexander</artist>
@@ -8617,7 +8617,7 @@
 		<name>Innervate</name>
 		<id>EX1_169</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -8645,7 +8645,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -8662,7 +8662,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -8679,7 +8679,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>NAXX</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -8710,7 +8710,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -8725,7 +8725,7 @@
 		<id>EX1_277</id>
 		<type>SPELL</type>
 		<mechanics>IMMUNE_TO_SPELL_POWER</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Dan Scott</artist>
@@ -8737,7 +8737,7 @@
 		<name>Ancestor's Call</name>
 		<id>GVG_029</id>
 		<set>GVG</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Luca Zontini</artist>
@@ -8749,7 +8749,7 @@
 		<name>Feign Death</name>
 		<id>GVG_026</id>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -8764,7 +8764,7 @@
 		<id>EX1_247</id>
 		<type>WEAPON</type>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -8842,7 +8842,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -8857,7 +8857,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -8874,7 +8874,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -8888,7 +8888,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -8903,7 +8903,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>E.M. Gist</artist>
@@ -8919,7 +8919,7 @@
 		<name>Slam</name>
 		<id>EX1_391</id>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -9003,7 +9003,7 @@
 		<health>9</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -9025,7 +9025,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -9040,7 +9040,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -9057,7 +9057,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -9074,7 +9074,7 @@
 		<name>Drain Life</name>
 		<id>CS2_061</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -9092,7 +9092,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -9109,7 +9109,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Chippy</artist>
@@ -9125,7 +9125,7 @@
 		<name>Blessing of Wisdom</name>
 		<id>EX1_363</id>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -9157,7 +9157,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Garner</artist>
@@ -9169,7 +9169,7 @@
 		<name>Thoughtsteal</name>
 		<id>EX1_339</id>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<artist>Raymond Swanland</artist>
@@ -9182,7 +9182,7 @@
 		<id>EX1_594</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -9196,7 +9196,7 @@
 		<name>Whirlwind</name>
 		<id>EX1_400</id>
 		<type>SPELL</type>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -9213,7 +9213,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Bernie Kang</artist>
@@ -9226,7 +9226,7 @@
 		<id>EX1_554</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<set>BRM</set>
@@ -9244,7 +9244,7 @@
 		<name>Resurrect</name>
 		<id>BRM_017</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -9290,7 +9290,7 @@
 		<name>Nourish</name>
 		<id>EX1_164</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<artist>Steve Prescott</artist>
@@ -9305,7 +9305,7 @@
 		<name>Deadly Shot</name>
 		<id>EX1_617</id>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<artist>Steve Hui</artist>
@@ -9317,7 +9317,7 @@
 		<name>Conceal</name>
 		<id>EX1_128</id>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -9347,7 +9347,7 @@
 		<name>Bouncing Blade</name>
 		<id>GVG_050</id>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -9380,7 +9380,7 @@
 		<name>Light of the Naaru</name>
 		<id>GVG_012</id>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -9398,7 +9398,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -9429,7 +9429,7 @@
 		<id>GVG_038</id>
 		<set>GVG</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -9461,7 +9461,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -9478,7 +9478,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -9492,7 +9492,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<artist>Steve Tappin</artist>
@@ -9504,7 +9504,7 @@
 		<name>Power of the Wild</name>
 		<id>EX1_160</id>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<artist>Den</artist>
@@ -9520,7 +9520,7 @@
 		<id>GVG_022</id>
 		<set>GVG</set>
 		<mechanics>COMBO</mechanics>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -9535,7 +9535,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<artist>Christopher Moeller</artist>
@@ -9548,7 +9548,7 @@
 		<id>EX1_259</id>
 		<set>EXPERT1</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -9563,7 +9563,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -9697,7 +9697,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -9715,7 +9715,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>LOE</set>
@@ -9730,7 +9730,7 @@
 		<id>LOE_021</id>
 		<type>SPELL</type>
 		<mechanics>SECRET</mechanics>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -9793,7 +9793,7 @@
 		<name>Inner Fire</name>
 		<id>CS1_129</id>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -9827,7 +9827,7 @@
 		<name>Soulfire</name>
 		<id>EX1_308</id>
 		<type>SPELL</type>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -9858,7 +9858,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>NAXX</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -9876,7 +9876,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -9891,7 +9891,7 @@
 		<health>1</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -9939,7 +9939,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -9956,7 +9956,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>0</attack>
@@ -10048,7 +10048,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -10062,7 +10062,7 @@
 		<name>Wild Growth</name>
 		<id>CS2_013</id>
 		<type>SPELL</type>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -10080,7 +10080,7 @@
 		<name>Rockbiter Weapon</name>
 		<id>CS2_045</id>
 		<type>SPELL</type>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -10116,7 +10116,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -10136,7 +10136,7 @@
 		<name>Mind Control</name>
 		<id>CS1_113</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -10182,7 +10182,7 @@
 		<name>Flare</name>
 		<id>EX1_544</id>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -10225,7 +10225,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -10279,7 +10279,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -10296,7 +10296,7 @@
 		<name>Holy Smite</name>
 		<id>CS1_130</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -10316,7 +10316,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>9</attack>
@@ -10360,7 +10360,7 @@
 		<name>Dark Bargain</name>
 		<id>AT_025</id>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -10391,7 +10391,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -10418,7 +10418,7 @@
 		<name>Preparation</name>
 		<id>EX1_145</id>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -10434,7 +10434,7 @@
 		<howToEarn>Unlocked at Level 2.</howToEarn>
 		<type>WEAPON</type>
 		<set>CORE</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>0</attack>
@@ -10466,7 +10466,7 @@
 	<card>
 		<set>CORE</set>
 		<name>Valeera Sanguinar</name>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 		<id>HERO_03</id>
 		<health>30</health>
 		<rarity>FREE</rarity>
@@ -10497,7 +10497,7 @@
 		<name>Divine Favor</name>
 		<id>EX1_349</id>
 		<set>EXPERT1</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -10526,7 +10526,7 @@
 		<id>FP1_018</id>
 		<type>SPELL</type>
 		<mechanics>SECRET</mechanics>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -10564,7 +10564,7 @@
 		<name>Imp-losion</name>
 		<id>GVG_045</id>
 		<set>GVG</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -10594,7 +10594,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -10630,7 +10630,7 @@
 		<name>Shadow Word: Death</name>
 		<id>EX1_622</id>
 		<type>SPELL</type>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -10646,7 +10646,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>4</attack>
@@ -10689,7 +10689,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -10718,7 +10718,7 @@
 		<health>3</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -10753,7 +10753,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -10861,7 +10861,7 @@
 	<card>
 		<set>HERO_SKINS</set>
 		<name>Alleria Windrunner</name>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 		<id>HERO_05a</id>
 		<health>30</health>
 		<rarity>EPIC</rarity>
@@ -10884,7 +10884,7 @@
 		<name>Sap</name>
 		<id>EX1_581</id>
 		<type>SPELL</type>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -10901,7 +10901,7 @@
 		<name>Arcane Shot</name>
 		<id>DS1_185</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -10934,7 +10934,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -11026,7 +11026,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>0</attack>
@@ -11055,7 +11055,7 @@
 		<health>8</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -11072,7 +11072,7 @@
 		<name>Multi-Shot</name>
 		<id>DS1_183</id>
 		<type>SPELL</type>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -11100,7 +11100,7 @@
 		<id>AT_077</id>
 		<type>WEAPON</type>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -11145,7 +11145,7 @@
 		<name>Power Overwhelming</name>
 		<id>EX1_316</id>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>8</attack>
@@ -11175,7 +11175,7 @@
 		<name>Betrayal</name>
 		<id>EX1_126</id>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<artist>Brandon Kitkouski</artist>
@@ -11188,7 +11188,7 @@
 		<id>EX1_610</id>
 		<set>EXPERT1</set>
 		<mechanics>SECRET</mechanics>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -11244,7 +11244,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -11260,7 +11260,7 @@
 		<howToEarn>Unlocked in the Hall of Explorers, in the League of Explorers adventure.</howToEarn>
 		<type>WEAPON</type>
 		<set>LOE</set>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<set>LOE</set>
@@ -11277,7 +11277,7 @@
 		<name>Forgotten Torch</name>
 		<id>LOE_002</id>
 		<type>SPELL</type>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -11306,7 +11306,7 @@
 		<id>LOE_027</id>
 		<type>SPELL</type>
 		<mechanics>SECRET</mechanics>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<set>CORE</set>
@@ -11322,7 +11322,7 @@
 		<name>Shield Block</name>
 		<id>EX1_606</id>
 		<type>SPELL</type>
-		<playerClass>WARRIOR</playerClass>
+		<PlayerClass>Warrior</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Horley Orlandelli</artist>
@@ -11339,7 +11339,7 @@
 		<id>CS2_073</id>
 		<set>EXPERT1</set>
 		<mechanics>COMBO</mechanics>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -11355,7 +11355,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<attack>3</attack>
@@ -11403,7 +11403,7 @@
 		<id>EX1_251</id>
 		<set>EXPERT1</set>
 		<mechanics>OVERLOAD</mechanics>
-		<playerClass>SHAMAN</playerClass>
+		<PlayerClass>Shaman</PlayerClass>
 	</card>
 	<card>
 		<artist>Kevin Chen</artist>
@@ -11420,7 +11420,7 @@
 		<name>Demonfuse</name>
 		<id>AT_024</id>
 		<set>TGT</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -11465,7 +11465,7 @@
 		<id>GVG_047</id>
 		<set>GVG</set>
 		<mechanics>COMBO</mechanics>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -11516,7 +11516,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -11568,7 +11568,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>CORE</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -11582,7 +11582,7 @@
 		<health>6</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>DRUID</playerClass>
+		<PlayerClass>Druid</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -11597,7 +11597,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -11612,7 +11612,7 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -11632,7 +11632,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<artist>Miguel Coimbra</artist>
@@ -11647,7 +11647,7 @@
 		<name>Holy Fire</name>
 		<id>EX1_624</id>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 	<card>
 		<attack>6</attack>
@@ -11680,7 +11680,7 @@
 		<health>5</health>
 		<type>MINION</type>
 		<set>TGT</set>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>1</attack>
@@ -11694,7 +11694,7 @@
 		<id>AT_034</id>
 		<type>WEAPON</type>
 		<set>TGT</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -11709,7 +11709,7 @@
 		<health>4</health>
 		<type>MINION</type>
 		<set>GVG</set>
-		<playerClass>MAGE</playerClass>
+		<PlayerClass>Mage</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -11738,7 +11738,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>ROGUE</playerClass>
+		<PlayerClass>Rogue</PlayerClass>
 	</card>
 	<card>
 		<attack>2</attack>
@@ -11757,7 +11757,7 @@
 		<health>2</health>
 		<type>MINION</type>
 		<set>LOE</set>
-		<playerClass>WARLOCK</playerClass>
+		<PlayerClass>Warlock</PlayerClass>
 	</card>
 	<card>
 		<artist>Alex Horley Orlandelli</artist>
@@ -11774,7 +11774,7 @@
 		<name>Bestial Wrath</name>
 		<id>EX1_549</id>
 		<set>EXPERT1</set>
-		<playerClass>HUNTER</playerClass>
+		<PlayerClass>Hunter</PlayerClass>
 	</card>
 	<card>
 		<attack>5</attack>
@@ -11803,7 +11803,7 @@
 		<name>Consecration</name>
 		<id>CS2_093</id>
 		<type>SPELL</type>
-		<playerClass>PALADIN</playerClass>
+		<PlayerClass>Paladin</PlayerClass>
 	</card>
 	<card>
 		<attack>7</attack>
@@ -11817,6 +11817,6 @@
 		<health>7</health>
 		<type>MINION</type>
 		<set>EXPERT1</set>
-		<playerClass>PRIEST</playerClass>
+		<PlayerClass>Priest</PlayerClass>
 	</card>
 </cards>
