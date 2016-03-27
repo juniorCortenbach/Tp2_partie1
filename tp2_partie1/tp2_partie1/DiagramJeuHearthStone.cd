@@ -11,7 +11,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="tp2_partie1.Utilitaire">
-    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Position X="8" Y="4.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
@@ -21,7 +21,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="tp2_partie1.FrmGestionDecks">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="5.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
@@ -31,7 +31,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="tp2_partie1.FrmGestionCartes">
-    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Position X="4" Y="4" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
@@ -41,27 +41,33 @@
     </TypeIdentifier>
   </Class>
   <Class Name="tp2_partie1.Heros">
-    <Position X="2.25" Y="2.5" Width="1.5" />
+    <Position X="2.25" Y="1.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAABCAEAQAIAIIACABQAAI=</HashCode>
+      <HashCode>AAAAAAIAAAAAAAAAAAIAAAAABCAEAQAIAIIACABQAAI=</HashCode>
       <FileName>Heros.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FrmGestionDecks" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.Deck">
-    <Position X="4.25" Y="3.25" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>EACAAAgAAAEAhABAAACAAAABAAAAAAAAAAAAAABAgAQ=</HashCode>
+      <HashCode>EACAAAoAAAEAhABAAACAAAABAAAAAAAAAAAAAABAgAQ=</HashCode>
       <FileName>Deck.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FrmGestionDecks" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.JeuHearthstone">
-    <Position X="10" Y="0.5" Width="1.5" />
+    <Position X="4" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
@@ -71,7 +77,7 @@
     </TypeIdentifier>
   </Class>
   <Enum Name="tp2_partie1.PlayerClass">
-    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Position X="8" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAAAAAAAAAAAAAADAAAgAAgECAAAAUAAAAAAIAAAA=</HashCode>
       <FileName>playerClass.cs</FileName>
