@@ -1,6 +1,6 @@
 ﻿namespace tp2_partie1
 {
-    partial class Form2
+    partial class FrmGestionDecks
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.lblDeck = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbHéros = new System.Windows.Forms.ComboBox();
-            this.lblModiferNom = new System.Windows.Forms.Label();
+            this.lblNomDeck = new System.Windows.Forms.Label();
             this.txtNomDeck = new System.Windows.Forms.TextBox();
             this.btnEnregistrer = new System.Windows.Forms.Button();
             this.btnAjouerUneCarte = new System.Windows.Forms.Button();
@@ -79,18 +79,19 @@
             this.cmbHéros.Name = "cmbHéros";
             this.cmbHéros.Size = new System.Drawing.Size(238, 21);
             this.cmbHéros.TabIndex = 3;
+            this.cmbHéros.SelectedIndexChanged += new System.EventHandler(this.cmbHéros_SelectedIndexChanged);
             // 
-            // lblModiferNom
+            // lblNomDeck
             // 
-            this.lblModiferNom.AutoSize = true;
-            this.lblModiferNom.BackColor = System.Drawing.Color.Transparent;
-            this.lblModiferNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblModiferNom.ForeColor = System.Drawing.Color.White;
-            this.lblModiferNom.Location = new System.Drawing.Point(67, 93);
-            this.lblModiferNom.Name = "lblModiferNom";
-            this.lblModiferNom.Size = new System.Drawing.Size(138, 20);
-            this.lblModiferNom.TabIndex = 4;
-            this.lblModiferNom.Text = "Modifier son nom :";
+            this.lblNomDeck.AutoSize = true;
+            this.lblNomDeck.BackColor = System.Drawing.Color.Transparent;
+            this.lblNomDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblNomDeck.ForeColor = System.Drawing.Color.White;
+            this.lblNomDeck.Location = new System.Drawing.Point(67, 93);
+            this.lblNomDeck.Name = "lblNomDeck";
+            this.lblNomDeck.Size = new System.Drawing.Size(138, 20);
+            this.lblNomDeck.TabIndex = 4;
+            this.lblNomDeck.Text = "Modifier son nom :";
             // 
             // txtNomDeck
             // 
@@ -98,6 +99,8 @@
             this.txtNomDeck.Name = "txtNomDeck";
             this.txtNomDeck.Size = new System.Drawing.Size(238, 20);
             this.txtNomDeck.TabIndex = 5;
+            this.txtNomDeck.TextChanged += new System.EventHandler(this.txtNomDeck_TextChanged);
+            this.txtNomDeck.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNomDeck_KeyDown);
             // 
             // btnEnregistrer
             // 
@@ -176,6 +179,7 @@
             this.btnSupprimer.TabIndex = 13;
             this.btnSupprimer.Text = "Enlever une carte";
             this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
             // 
             // cmbCartes
             // 
@@ -185,6 +189,7 @@
             this.cmbCartes.Name = "cmbCartes";
             this.cmbCartes.Size = new System.Drawing.Size(238, 21);
             this.cmbCartes.TabIndex = 15;
+            this.cmbCartes.SelectedIndexChanged += new System.EventHandler(this.cmbCartes_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -210,7 +215,7 @@
             this.lblGestionCartes.TabIndex = 16;
             this.lblGestionCartes.Text = "Gestion cartes";
             // 
-            // Form2
+            // FrmGestionDecks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -228,12 +233,12 @@
             this.Controls.Add(this.btnAjouerUneCarte);
             this.Controls.Add(this.btnEnregistrer);
             this.Controls.Add(this.txtNomDeck);
-            this.Controls.Add(this.lblModiferNom);
+            this.Controls.Add(this.lblNomDeck);
             this.Controls.Add(this.cmbHéros);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblDeck);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "FrmGestionDecks";
+            this.Text = "Jeu HeartStone";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgDeck)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblDeck)).EndInit();
@@ -247,7 +252,7 @@
         private System.Windows.Forms.Label lblDeck;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbHéros;
-        private System.Windows.Forms.Label lblModiferNom;
+        private System.Windows.Forms.Label lblNomDeck;
         private System.Windows.Forms.TextBox txtNomDeck;
         private System.Windows.Forms.Button btnEnregistrer;
         private System.Windows.Forms.Button btnAjouerUneCarte;

@@ -14,6 +14,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Media;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,7 +26,7 @@ namespace tp2_partie1
     /// <summary>
     /// Formulaire de gestion de deck du héro.
     /// </summary>
-    public partial class Form2 : Form
+    public partial class FrmGestionDecks : Form
     {
         #region ATTRIBUTS
 
@@ -33,12 +34,20 @@ namespace tp2_partie1
         /// Création de l'objet _s qui permet l'exécution du programme sonore.
         /// </summary>
         private SoundPlayer _s = new SoundPlayer(tp2_partie1.Properties.Resources.btnCliquer);
+        private SoundPlayer _keyPressedSound = new SoundPlayer(tp2_partie1.Properties.Resources.keyPressed);
+        
+        /// <summary>
+        /// Création du Formulaire 1 avec ses propriétés
+        /// </summary>
+        private readonly FrmGestionCartes _gameForm1;
 
          #endregion
 
-        public Form2()
+        public FrmGestionDecks(FrmGestionCartes gameForm1)
         {
+            this._gameForm1 = gameForm1;
             InitializeComponent();
+           
         }
 
 
@@ -47,6 +56,23 @@ namespace tp2_partie1
             //Retrait de l'image et du tableau du deck du formulaire.
             this.imgDeck.Hide();
             this.tblDeck.Hide();
+
+            switch (this._gameForm1.AffichageSelectionner)
+            {
+                case 1:
+                    this.lblDeck.Text = @"Créer un deck";
+                    this.lblNomDeck.Text = @"Ajouté son nom";
+
+                    break;
+                case 2:
+                    this.lblDeck.Text = @"Modifier un deck";
+                    this.lblNomDeck.Text = @"Modifier son nom";
+                    break;
+                default:
+                    this.lblDeck.Text = @"Gestion de decks";
+                    break;
+
+            }
         }
 
         /// <summary>
@@ -99,8 +125,36 @@ namespace tp2_partie1
         /// <param name="e"></param>
         private void btnEnregistrer_Click(object sender, EventArgs e)
         {
-            //Joue du son.
-            this._s.Play(); 
+            this._s.Play();    //Joue du son.
         }
+
+        private void cmbHéros_SelectedIndexChanged(object sender, EventArgs e)
+        {
+                //A faire
+        }
+
+        private void cmbCartes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+                //A faire
+        }
+
+        private void btnSupprimer_Click(object sender, EventArgs e)
+        {
+            this._s.Play(); //Joue du son.
+        }
+
+
+
+        private void txtNomDeck_TextChanged(object sender, EventArgs e)
+        {
+       
+        }
+
+        private void txtNomDeck_KeyDown(object sender, KeyEventArgs e)
+        {
+            this._keyPressedSound.Play(); //Joue du sons lorsque touche appuyer
+        }
+
+    
     }
 }

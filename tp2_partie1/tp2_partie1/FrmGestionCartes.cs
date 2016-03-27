@@ -27,7 +27,7 @@ namespace tp2_partie1
     /// <summary>
     /// Formulaire de gestion du jeu.
     /// </summary>
-    public partial class Form1 : Form
+    public partial class FrmGestionCartes : Form
     {
 
         #region ATTRIBUTS
@@ -42,16 +42,33 @@ namespace tp2_partie1
         /// </summary>
         private SoundPlayer _s = new SoundPlayer(tp2_partie1.Properties.Resources.btnCliquer);
 
+        /// <summary>
+        /// permet de savoir quelle bouton a été cliquer. 
+        /// </summary>
+        private byte _affichageSelectionner; 
+
+
+        #region PROPRIÉTÉS
+        
+        /// <summary>
+        /// permet de savoir quelle bouton a été cliquer. 
+        /// </summary>
+        public byte AffichageSelectionner
+        {
+            get { return this._affichageSelectionner; }
+            set { this._affichageSelectionner = value; }
+        }
+
         #endregion
 
-        #region MÉTHODES
-
-        public Form1()
+        public FrmGestionCartes()
         {
             InitializeComponent();
             ///Chargement du son lors de la sélection d'un bouton.
             this._joueurDeSons = new SoundPlayer("btnCliquer.wav");
         }
+
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -88,6 +105,8 @@ namespace tp2_partie1
 
         private void btnModifier_Click(object sender, EventArgs e)
         {
+            //Change la valeur de AffichageSelectionner
+            this.AffichageSelectionner = 2;
             //Affichage des images des cartes.
             this.imgCartes.Show();
             //retrait du tableau de cartes du formulaire.
@@ -95,17 +114,19 @@ namespace tp2_partie1
             //Joue du son.
             this._s.Play(); 
             //Création du nouveau formulaire.
-            Form2 f2 = new Form2();
+            FrmGestionDecks f2 = new FrmGestionDecks(this);
             //Affichage du nouveau formulaire.
             f2.Show();
         }
 
         private void btnCréer_Click(object sender, EventArgs e)
-        { 
+        {
+            //Change la valeur de AffichageSelectionner
+            this.AffichageSelectionner = 1;
             //Joue du son.
             this._s.Play();
             //Création du nouveau formulaire.
-            Form2 f2 = new Form2();
+            FrmGestionDecks f2 = new FrmGestionDecks(this);
             //Affichage du nouveau formulaire.
             f2.Show();
         }

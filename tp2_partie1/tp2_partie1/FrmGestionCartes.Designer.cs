@@ -1,6 +1,6 @@
 ﻿namespace tp2_partie1
 {
-    partial class Form1
+    partial class FrmGestionCartes
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionCartes));
             this.tblCarte = new System.Windows.Forms.DataGridView();
             this.btnImages = new System.Windows.Forms.Button();
             this.lblAffichage = new System.Windows.Forms.Label();
@@ -38,6 +38,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnModifier = new System.Windows.Forms.Button();
             this.lblDeck = new System.Windows.Forms.Label();
+            this.nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Etc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.tblCarte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCartes)).BeginInit();
             this.SuspendLayout();
@@ -46,6 +49,10 @@
             // 
             this.tblCarte.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tblCarte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tblCarte.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nom,
+            this.Type,
+            this.Etc});
             this.tblCarte.Location = new System.Drawing.Point(323, 71);
             this.tblCarte.Name = "tblCarte";
             this.tblCarte.Size = new System.Drawing.Size(450, 340);
@@ -134,7 +141,22 @@
             this.lblDeck.TabIndex = 8;
             this.lblDeck.Text = "Jeu HeartStone";
             // 
-            // Form1
+            // nom
+            // 
+            this.nom.HeaderText = "nom";
+            this.nom.Name = "nom";
+            // 
+            // Type
+            // 
+            this.Type.HeaderText = "Type";
+            this.Type.Name = "Type";
+            // 
+            // Etc
+            // 
+            this.Etc.HeaderText = "Etc";
+            this.Etc.Name = "Etc";
+            // 
+            // FrmGestionCartes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,8 +171,8 @@
             this.Controls.Add(this.lblAffichage);
             this.Controls.Add(this.btnImages);
             this.Controls.Add(this.tblCarte);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FrmGestionCartes";
+            this.Text = "Jeu HearStone";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tblCarte)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCartes)).EndInit();
@@ -170,6 +192,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnModifier;
         private System.Windows.Forms.Label lblDeck;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Type;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Etc;
     }
 }
 

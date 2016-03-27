@@ -78,5 +78,14 @@ namespace tp2_partie1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream keyPressed {
+            get {
+                return ResourceManager.GetStream("keyPressed", resourceCulture);
+            }
+        }
     }
 }
