@@ -32,7 +32,7 @@ namespace tp2_partie1
         /// Héro (avec toutes informations du héro contenus dans 
         /// la classe Heros).
         /// </summary>
-        private Heros _hero;
+        private Hero _hero;
 
         /// <summary>
         /// Tableau de cartes.
@@ -49,7 +49,7 @@ namespace tp2_partie1
             set { this._nomDeck = value; }
         }
 
-        public Heros Hero
+        public Hero Hero
         {
             get { return this._hero; }
             set { this._hero = value; }
@@ -63,16 +63,6 @@ namespace tp2_partie1
 
         #endregion
 
-        public FrmGestionDecks FrmGestionDecks
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
 
         public JeuHearthstone JeuHearthstone
         {

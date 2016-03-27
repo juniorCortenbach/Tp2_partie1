@@ -73,7 +73,7 @@
     <Compile Include="FrmGestionDecks.Designer.cs">
       <DependentUpon>FrmGestionDecks.cs</DependentUpon>
     </Compile>
-    <Compile Include="Heros.cs" />
+    <Compile Include="Hero.cs" />
     <Compile Include="JeuHearthstone.cs" />
     <Compile Include="playerClass.cs" />
     <Compile Include="Program.cs" />

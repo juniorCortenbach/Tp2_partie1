@@ -212,17 +212,6 @@ namespace tp2_partie1
             }
         }
 
-        public Deck Deck
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
         #region CONSTRUCTEUR
 
         /// <summary>

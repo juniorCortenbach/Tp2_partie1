@@ -6,89 +6,99 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgAoCAAQAAAAAQBAQBCAEoQAIAIJQCAFBAAM=</HashCode>
+      <HashCode>AAAAAAAAgAoCAAQAAAAAQBAQBCAEoQAIAIIQCAFBAAM=</HashCode>
       <FileName>Cartes.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="JeuHearthstone" />
-      <Property Name="Deck" />
     </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.Utilitaire">
-    <Position X="8" Y="4.25" Width="1.5" />
+    <Position X="3.25" Y="10.75" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAQIAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAg=</HashCode>
       <FileName>Utilitaires.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="FrmGestionDecks" />
+      <Property Name="FrmGestionCartes" />
     </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.FrmGestionDecks">
-    <Position X="6.25" Y="5.75" Width="1.5" />
+    <Position X="5.25" Y="5.25" Width="2" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>CAAIAJAAYiAAETQRAAiEQFACAIkAAAEAEAMAAAAAAAI=</HashCode>
+      <HashCode>CAAIAJAAYiAAATQRAAiEQFAiAIgAAAEAEAMAAAAAAAI=</HashCode>
       <FileName>FrmGestionDecks.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Utilitaire" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.FrmGestionCartes">
-    <Position X="4" Y="4" Width="1.5" />
+    <Position X="2.5" Y="5.25" Width="2" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
+    <AssociationLine Name="FrmGestionDecks" Type="tp2_partie1.FrmGestionDecks">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.213" Y="0.06" Height="0.182" Width="1.558" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAEgAwAAADAAABAABICQJEACAAMACAEAASQAAAAAAAA=</HashCode>
+      <HashCode>AAEgAwIAADAAABAAAICQJEACAAIACAEAASQAAAAAAAA=</HashCode>
       <FileName>FrmGestionCartes.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="tp2_partie1.Heros">
-    <Position X="2.25" Y="1.75" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="true" />
-    </Compartments>
-    <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAAAAAAAIAAAIABCAEAQAIAIJACABQAAM=</HashCode>
-      <FileName>Heros.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="FrmGestionDecks" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="tp2_partie1.Hero">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAABCAEAQAIAIIACABQAAM=</HashCode>
+      <FileName>Hero.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
       <Property Name="JeuHearthstone" />
-      <Property Name="Heros1" />
-      <Property Name="Deck" />
     </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.Deck">
-    <Position X="6" Y="0.5" Width="1.5" />
+    <Position X="8" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>EACAAAoAAAEAhABAAACAAAABAAAAAAAAAAAAAABAgAU=</HashCode>
+      <HashCode>EACAAAgAAAEAhABAAACAAAABAAAAAAAAAAAAAABAgAU=</HashCode>
       <FileName>Deck.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="FrmGestionDecks" />
       <Property Name="JeuHearthstone" />
     </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.JeuHearthstone">
-    <Position X="4" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="1.5" Width="2.25" />
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAEIAAAAAAAABAAQAACAAAAAAAACAAQgAAAQAAAQAAA=</HashCode>
+      <HashCode>AAEIAAIAAAAABAAQAACAAAAAAAACAAQgAAAQAAAQAAg=</HashCode>
       <FileName>JeuHearthstone.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FrmGestionCartes" />
+      <Property Name="FrmGestionDecks" />
+    </ShowAsAssociation>
   </Class>
   <Enum Name="tp2_partie1.PlayerClass">
-    <Position X="8" Y="1.5" Width="1.5" />
+    <Position X="10.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAAAAAAAAAAAAAADAAAgAAgECAAAAUAAAAAAIAAAA=</HashCode>
       <FileName>playerClass.cs</FileName>

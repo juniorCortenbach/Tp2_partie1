@@ -39,7 +39,7 @@ namespace tp2_partie1
         /// <summary>
         /// Tableau d'héros.
         /// </summary>
-        private Heros[] _lesHerosDeReference;
+        private Hero[] _lesHerosDeReference;
 
         /// <summary>
         /// Tableau de cartes.
@@ -53,7 +53,7 @@ namespace tp2_partie1
         /// <summary>
         /// Tableau d'héros.
         /// </summary>
-        public Heros[] LesHeros
+        public Hero[] LesHeros
         {
             get { return this._lesHerosDeReference; }
             private set { this._lesHerosDeReference = value; }
@@ -79,6 +79,28 @@ namespace tp2_partie1
 
         #endregion
 
+        public FrmGestionCartes FrmGestionCartes
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public FrmGestionDecks FrmGestionDecks
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         #region CONSTRUCTEUR
         /// <summary>
         /// Constructeur non paramétré.
@@ -97,7 +119,7 @@ namespace tp2_partie1
         /// Au démarrage, les données sur les héros doivent être chargées dans des tableaux d’objets, et ce, à partir du fichier XML fourni.
         /// </summary>
         /// <returns></returns>
-        public Heros[] ChargerXmlHeros()
+        public Hero[] ChargerXmlHeros()
         {
             return null;
         }

@@ -29,7 +29,7 @@ namespace tp2_partie1
 
         #endregion
 
-        public FrmGestionDecks FrmGestionDecks
+        public FrmGestionCartes FrmGestionCartes
         {
             get
             {
@@ -39,6 +39,7 @@ namespace tp2_partie1
             {
             }
         }
+
 
         #region MÉTHODES
 

@@ -33,8 +33,8 @@ namespace tp2_partie1
         /// <summary>
         /// Création de l'objet _s qui permet l'exécution du programme sonore.
         /// </summary>
-        private SoundPlayer _s = new SoundPlayer(tp2_partie1.Properties.Resources.btnCliquer);
-        private SoundPlayer _keyPressedSound = new SoundPlayer(tp2_partie1.Properties.Resources.keyPressed);
+       // private SoundPlayer _s = new SoundPlayer(tp2_partie1.Properties.Resources.btnCliquer);
+        //private SoundPlayer _keyPressedSound = new SoundPlayer(tp2_partie1.Properties.Resources.keyPressed);
         
         /// <summary>
         /// Création du Formulaire 1 avec ses propriétés
@@ -47,7 +47,18 @@ namespace tp2_partie1
         {
             this._gameForm1 = gameForm1;
             InitializeComponent();
-           
+
+        }
+
+        public Utilitaire Utilitaire
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
 
 
@@ -86,7 +97,7 @@ namespace tp2_partie1
             //Affichage de l'image du deck plutôt que le tableau.
             this.imgDeck.Show();
             //Joue du sons 
-            this._s.Play(); 
+            //this._s.Play(); 
         }
 
         /// <summary>
@@ -101,7 +112,7 @@ namespace tp2_partie1
             //Retrait de l'image du formulaire.
             this.imgDeck.Hide();
             //Joue du son.
-            this._s.Play(); 
+           // this._s.Play(); 
         }
 
         /// <summary>
@@ -112,7 +123,7 @@ namespace tp2_partie1
         private void btnCharger_Click(object sender, EventArgs e)
         {
             //Joue du son.
-            this._s.Play();
+            //this._s.Play();
         }
 
         /// <summary>
@@ -124,7 +135,7 @@ namespace tp2_partie1
         /// <param name="e"></param>
         private void btnEnregistrer_Click(object sender, EventArgs e)
         {
-            this._s.Play();    //Joue du son.
+            //this._s.Play();    //Joue du son.
         }
 
         private void cmbHéros_SelectedIndexChanged(object sender, EventArgs e)
@@ -140,7 +151,7 @@ namespace tp2_partie1
         private void btnSupprimer_Click(object sender, EventArgs e)
         {
             //Joue du son.
-            this._s.Play(); 
+            //this._s.Play(); 
         }
 
         private void txtNomDeck_TextChanged(object sender, EventArgs e)
@@ -151,7 +162,7 @@ namespace tp2_partie1
         private void txtNomDeck_KeyDown(object sender, KeyEventArgs e)
         {
             //Joue du son lorsque la touche est appuyée.
-            this._keyPressedSound.Play(); 
+           // this._keyPressedSound.Play(); 
         }
 
     

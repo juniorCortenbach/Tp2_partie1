@@ -18,7 +18,7 @@ namespace tp2_partie1
     /// <summary>
     /// Classe contenant tout le contenu relatif à un héro.
     /// </summary>
-    public class Heros
+    public class Hero
     {
         #region ATTRIBUTS
 
@@ -112,40 +112,8 @@ namespace tp2_partie1
 
         #endregion
 
-        public FrmGestionDecks FrmGestionDecks
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
 
         public JeuHearthstone JeuHearthstone
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public Heros Heros1
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public Deck Deck
         {
             get
             {
@@ -167,7 +135,7 @@ namespace tp2_partie1
         /// <param name="rarete">Rareté du héro.</param>
         /// <param name="classHero">Classe du héro.</param>
         /// <param name="ptsVie">Points de vie du héro.</param>
-        public Heros(string identifiant, string nom, string extension, string rarete, string classHero, byte ptsVie)
+        public Hero(string identifiant, string nom, string extension, string rarete, string classHero, byte ptsVie)
         {
             this._identifiant = identifiant;
             this._nom = nom;

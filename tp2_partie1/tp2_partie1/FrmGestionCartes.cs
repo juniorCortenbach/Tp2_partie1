@@ -35,12 +35,12 @@ namespace tp2_partie1
         /// <summary>
         /// Son de type SoundPlayer.
         /// </summary>
-        private SoundPlayer _joueurDeSons;
+        //private SoundPlayer _joueurDeSons;
 
         /// <summary>
         /// Création de l'objet _s de type SoundPlayer.
         /// </summary>
-        private SoundPlayer _s = new SoundPlayer(tp2_partie1.Properties.Resources.btnCliquer);
+        //private SoundPlayer _s = new SoundPlayer(tp2_partie1.Properties.Resources.btnCliquer);
 
         /// <summary>
         /// permet de savoir quelle bouton a été cliquer. 
@@ -61,13 +61,24 @@ namespace tp2_partie1
 
         #endregion
 
+        public FrmGestionDecks FrmGestionDecks
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         #region MÉTHODES
 
         public FrmGestionCartes()
         {
             InitializeComponent();
             ///Chargement du son lors de la sélection d'un bouton.
-            this._joueurDeSons = new SoundPlayer("btnCliquer.wav");
+           // this._joueurDeSons = new SoundPlayer("btnCliquer.wav");
         }
 
 
@@ -86,13 +97,13 @@ namespace tp2_partie1
             //Retrait des mages des cartes du formulaire.
             this.imgCartes.Hide();
             //Exécution du son.
-            this._s.Play(); //Joue du sons.
+           // this._s.Play(); //Joue du sons.
         }
 
         private void btnCher_Click(object sender, EventArgs e)
         {
             //Joue du son.
-            this._s.Play(); 
+          //  this._s.Play(); 
         }
 
         private void btnImages_Click_1(object sender, EventArgs e)
@@ -102,7 +113,7 @@ namespace tp2_partie1
             //Retrait du tableau de cartes du formulaire.
             this.tblCarte.Hide();
             //Joue du son.
-            this._s.Play();  
+           // this._s.Play();  
         }
 
         private void btnModifier_Click(object sender, EventArgs e)
@@ -114,7 +125,7 @@ namespace tp2_partie1
             //retrait du tableau de cartes du formulaire.
             this.tblCarte.Hide();
             //Joue du son.
-            this._s.Play(); 
+           // this._s.Play(); 
             //Création du nouveau formulaire.
             FrmGestionDecks f2 = new FrmGestionDecks(this);
             //Affichage du nouveau formulaire.
@@ -126,7 +137,7 @@ namespace tp2_partie1
             //Change la valeur de AffichageSelectionner
             this.AffichageSelectionner = 1;
             //Joue du son.
-            this._s.Play();
+           // this._s.Play();
             //Création du nouveau formulaire.
             FrmGestionDecks f2 = new FrmGestionDecks(this);
             //Affichage du nouveau formulaire.
