@@ -74,6 +74,17 @@ namespace tp2_partie1
             }
         }
 
+        public JeuHearthstone JeuHearthstone
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
 
         #region MÉTHODES
 

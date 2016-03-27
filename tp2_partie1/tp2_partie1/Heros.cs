@@ -123,6 +123,39 @@ namespace tp2_partie1
             }
         }
 
+        public JeuHearthstone JeuHearthstone
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public Heros Heros1
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public Deck Deck
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         #region CONSTRUCTEUR
 
         /// <summary>

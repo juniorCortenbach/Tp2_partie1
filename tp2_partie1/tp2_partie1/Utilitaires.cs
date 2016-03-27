@@ -29,6 +29,17 @@ namespace tp2_partie1
 
         #endregion
 
+        public FrmGestionDecks FrmGestionDecks
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         #region MÉTHODES
 
         /// <summary>

@@ -110,7 +110,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cards-collectible.xml" />
+    <Content Include="cards-collectible.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Musique\keyPressed.wav" />
     <None Include="Musique\btnCliquer.wav" />
     <None Include="Images\FondDuFormulaire1.png" />

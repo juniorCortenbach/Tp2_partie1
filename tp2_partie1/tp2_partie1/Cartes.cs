@@ -201,6 +201,28 @@ namespace tp2_partie1
 
         #endregion
 
+        public JeuHearthstone JeuHearthstone
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public Deck Deck
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         #region CONSTRUCTEUR
 
         /// <summary>

@@ -6,9 +6,13 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgAoCAAQAAAAAQBAQBCAEoQAIAIIQCAFBAAI=</HashCode>
+      <HashCode>AAAAAAAAgAoCAAQAAAAAQBAQBCAEoQAIAIJQCAFBAAM=</HashCode>
       <FileName>Cartes.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JeuHearthstone" />
+      <Property Name="Deck" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.Utilitaire">
     <Position X="8" Y="4.25" Width="1.5" />
@@ -16,9 +20,12 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAQIAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Utilitaires.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FrmGestionDecks" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.FrmGestionDecks">
     <Position X="6.25" Y="5.75" Width="1.5" />
@@ -46,11 +53,14 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAAAAAAAIAAAAABCAEAQAIAIIACABQAAI=</HashCode>
+      <HashCode>AAAAAAIAAAAAAAAAAAIAAAIABCAEAQAIAIJACABQAAM=</HashCode>
       <FileName>Heros.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="FrmGestionDecks" />
+      <Property Name="JeuHearthstone" />
+      <Property Name="Heros1" />
+      <Property Name="Deck" />
     </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.Deck">
@@ -59,11 +69,12 @@
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>EACAAAoAAAEAhABAAACAAAABAAAAAAAAAAAAAABAgAQ=</HashCode>
+      <HashCode>EACAAAoAAAEAhABAAACAAAABAAAAAAAAAAAAAABAgAU=</HashCode>
       <FileName>Deck.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="FrmGestionDecks" />
+      <Property Name="JeuHearthstone" />
     </ShowAsAssociation>
   </Class>
   <Class Name="tp2_partie1.JeuHearthstone">
