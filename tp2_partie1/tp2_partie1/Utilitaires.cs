@@ -5,7 +5,6 @@
  */
 #endregion
 
-
 #region USING
 
 using System;
@@ -19,29 +18,24 @@ using System.Threading.Tasks;
 
 namespace tp2_partie1
 {
+    /// <summary>
+    /// Classe statique contenant les informations utilitaires.
+    /// </summary>
     public class Utilitaire
     {
-        #region ATTRIBUTS
-        
-        #endregion
-
-        #region PROPRIÉTÉS
-
-        #endregion
-
         #region  CONSTANTE
 
         const string fichierCartes = "cards-collectible.xml";
 
         #endregion
 
-        #region CONSTRUCTEUR
-
-        #endregion
-
         #region MÉTHODES
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="cheminFichier"></param>
+        /// <returns></returns>
         public static Cartes[] ChargerCartes(String cheminFichier)
         {
             return null;
@@ -49,14 +43,13 @@ namespace tp2_partie1
 
 
         /// <summary>
-        /// Charger un deck en utilisant une boîte de dialogue standard de Windows
+        /// Charger un deck en utilisant une boîte de dialogue standard de Windows.
         /// </summary>
         /// <returns></returns>
         public static Deck ChargerDeck()
         {
             return null;
         }
-
 
         #endregion
 

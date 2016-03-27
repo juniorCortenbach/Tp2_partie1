@@ -1,7 +1,7 @@
 ﻿namespace tp2_partie1
 {
     /// <summary>
-    /// Énumération des class du joueur
+    /// Énumération des classes possibles.
     /// </summary>
     public enum PlayerClass
     {

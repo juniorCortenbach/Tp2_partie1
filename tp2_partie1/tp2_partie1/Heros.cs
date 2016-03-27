@@ -15,47 +15,49 @@ using System.Threading.Tasks;
 
 namespace tp2_partie1
 {
+    /// <summary>
+    /// Classe contenant tout le contenu relatif à un héro.
+    /// </summary>
     public class Heros
     {
         #region ATTRIBUTS
 
         /// <summary>
-        /// Retourne l'identifiant de l'héro
+        /// L'identifiant du héro.
         /// </summary>
         private string _identifiant;
          
         /// <summary>
-        /// Retourne le nom de l'héro
+        /// Le nom du héro.
         /// </summary>
         private string _nom;
 
         /// <summary>
-        /// Retourne l'extension de l'héro
+        /// L'extension du héro.
         /// </summary>
         private string _extension;
 
         /// <summary>
-        /// Retourne la rareté de l'héro
+        /// La rareté du héro.
         /// </summary>
         private string _rarete;
 
         /// <summary>
-        /// Retourne la classe de l'héro
+        /// La classe du héro.
         /// </summary>
         private string _classHero;
 
         /// <summary>
-        /// Retourne les points de vie de l'héro
+        /// Les points de vie du héro.
         /// </summary>
         private byte _ptsVie;
 
         #endregion
 
-
-        #region ACESSEURS
+        #region PROPRIÉTÉS
         
         /// <summary>
-        /// Retourne l'identifiant de l'héro
+        /// L'identifiant du héro.
         /// </summary>
         public string Identifiant
         {
@@ -64,7 +66,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne le nom de l'unité
+        /// Le nom du unité.
         /// </summary>
         public string Nom
         {
@@ -73,7 +75,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne l'extension de l'héro
+        /// L'extension du héro.
         /// </summary>
         public string Extension
         {
@@ -82,7 +84,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne la rareté de l'héro
+        /// La rareté du héro.
         /// </summary>
         public string Rarete
         {
@@ -91,7 +93,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne la classe de l'héro
+        /// La classe du héro.
         /// </summary>
         public string Class
         {
@@ -100,7 +102,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne les points de vie de l'héro
+        /// Les points de vie du héro.
         /// </summary>
         public byte PtsVie
         {
@@ -110,18 +112,17 @@ namespace tp2_partie1
 
         #endregion
 
-
         #region CONSTRUCTEUR
 
         /// <summary>
-        /// Constructeur de la class héros 
+        /// Constructeur paramétré qui accepte les 6 arguments d'un héro.
         /// </summary>
-        /// <param name="identifiant"></param>
-        /// <param name="nom">Nom de l'héro</param>
-        /// <param name="extension">Extension de l'héro</param>
-        /// <param name="rarete">Rareté de l'héro</param>
-        /// <param name="classHero">Classe de l'héro</param>
-        /// <param name="ptsVie">Points de Vie de l'héro</param>
+        /// <param name="identifiant">Identifiant du héro.</param>
+        /// <param name="nom">Nom du héro.</param>
+        /// <param name="extension">Extension du héro.</param>
+        /// <param name="rarete">Rareté du héro.</param>
+        /// <param name="classHero">Classe du héro.</param>
+        /// <param name="ptsVie">Points de vie du héro.</param>
         public Heros(string identifiant, string nom, string extension, string rarete, string classHero, byte ptsVie)
         {
             this._identifiant = identifiant;
@@ -131,8 +132,8 @@ namespace tp2_partie1
             this._classHero = classHero;
             this._ptsVie = ptsVie;
         }
-       #endregion
 
+       #endregion
 
     }
 }

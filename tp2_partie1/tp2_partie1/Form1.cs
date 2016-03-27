@@ -2,7 +2,7 @@
 /* Nom du fichier         : A CHANGER
  * Nom du programmeur     : Maxim Desloges et Junior Cortenbach
  * Date                   : 30 mars 2016
- */
+*/
 #endregion
 
 
@@ -22,70 +22,94 @@ using System.Media; //Permet d'utiliser la class media
 #endregion
 
 
-
 namespace tp2_partie1
 {
+    /// <summary>
+    /// Formulaire de gestion du jeu.
+    /// </summary>
     public partial class Form1 : Form
     {
 
         #region ATTRIBUTS
 
+        /// <summary>
+        /// Son de type SoundPlayer.
+        /// </summary>
         private SoundPlayer _joueurDeSons;
 
+        /// <summary>
+        /// Création de l'objet _s de type SoundPlayer.
+        /// </summary>
         private SoundPlayer _s = new SoundPlayer(tp2_partie1.Properties.Resources.btnCliquer);
 
         #endregion
 
+        #region MÉTHODES
 
         public Form1()
         {
             InitializeComponent();
+            ///Chargement du son lors de la sélection d'un bouton.
             this._joueurDeSons = new SoundPlayer("btnCliquer.wav");
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           //Retrait des images des cartes et du tableau de cartes du formulaire.
            this.imgCartes.Hide();
             this.tblCarte.Hide();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Affichage du tableau de cartes.
             this.tblCarte.Show();
+            //Retrait des mages des cartes du formulaire.
             this.imgCartes.Hide();
-            this._s.Play(); //Joue du sons 
+            //Exécution du son.
+            this._s.Play(); //Joue du sons.
         }
 
         private void btnCher_Click(object sender, EventArgs e)
         {
-            this._s.Play(); //Joue du sons 
+            //Joue du son.
+            this._s.Play(); 
         }
 
         private void btnImages_Click_1(object sender, EventArgs e)
         {
+            //Affichage des images des cartes.
             this.imgCartes.Show();
+            //Retrait du tableau de cartes du formulaire.
             this.tblCarte.Hide();
-            this._s.Play(); //Joue du sons 
+            //Joue du son.
+            this._s.Play();  
         }
 
         private void btnModifier_Click(object sender, EventArgs e)
         {
+            //Affichage des images des cartes.
             this.imgCartes.Show();
+            //retrait du tableau de cartes du formulaire.
             this.tblCarte.Hide();
-            this._s.Play(); //Joue du sons
-            //Nouveaux Formulaire
+            //Joue du son.
+            this._s.Play(); 
+            //Création du nouveau formulaire.
             Form2 f2 = new Form2();
+            //Affichage du nouveau formulaire.
             f2.Show();
         }
 
         private void btnCréer_Click(object sender, EventArgs e)
-        {
-            this._s.Play(); //Joue du sons
-            //Nouveaux Formulaire
+        { 
+            //Joue du son.
+            this._s.Play();
+            //Création du nouveau formulaire.
             Form2 f2 = new Form2();
+            //Affichage du nouveau formulaire.
             f2.Show();
-
         }
+
+        #endregion
     }
 }

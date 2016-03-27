@@ -127,7 +127,7 @@
             this.btnTablaux.TabIndex = 10;
             this.btnTablaux.Text = "Tabulaire";
             this.btnTablaux.UseVisualStyleBackColor = true;
-            this.btnTablaux.Click += new System.EventHandler(this.btnTablaux_Click);
+            this.btnTablaux.Click += new System.EventHandler(this.btnTableaux_Click);
             // 
             // lblGestionDeck
             // 

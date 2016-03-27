@@ -16,57 +16,51 @@ using System.Threading.Tasks;
 
 namespace tp2_partie1
 {
+    /// <summary>
+    /// Classe qui contient les informations du jeu.
+    /// </summary>
     public class JeuHearthstone
     {
-        #region CONSTANTES
+        #region CONSTANTE
         /// <summary>
-        /// Constante qui contient le fichier xml qui contient les cartes et les héros
+        /// Constante qui contient le fichier .xml et donc les informations concernant les cartes et les héros.
         /// </summary>
         public const string FichierCartesHeros = "cards-collectible.xml";  
+
         #endregion
 
         #region ATTRIBUTS
 
         /// <summary>
-        /// Tableaux de decks
+        /// Tableau des decks.
         /// </summary>
         private Deck[] _lesDecksDuJeu;
 
         /// <summary>
-        /// Tableaux d'héros
+        /// Tableau d'héros.
         /// </summary>
         private Heros[] _lesHerosDeReference;
 
         /// <summary>
-        /// Tableaux de carte
+        /// Tableau de cartes.
         /// </summary>
         private Cartes[] _lesCartesDeReferences;
 
         #endregion
 
-        #region CONSTRUCTEUR
+        #region PROPRIÉTÉS
+
         /// <summary>
-        /// Constructeur non paramétrés 
-        /// </summary>
-        public JeuHearthstone()
-        {
-
-        }
-
-
-       #endregion
-
-        #region ACCESSEURS
-        /// <summary>
-        /// Retourne un Tableaux d'héros 
+        /// Tableau d'héros.
         /// </summary>
         public Heros[] LesHeros
         {
             get { return this._lesHerosDeReference; }
             private set { this._lesHerosDeReference = value; }
         }
+
         /// <summary>
-        /// Retourne un Tableaux de Cartes
+        /// Tableau de decks.
         /// </summary>
         public Deck[] LesDecks
         {
@@ -75,7 +69,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Tableaux de carte
+        /// Tableau de cartes.
         /// </summary>
         public Cartes[] LesCartes
         {
@@ -85,7 +79,19 @@ namespace tp2_partie1
 
         #endregion
 
-       #region MÉTHODE
+        #region CONSTRUCTEUR
+        /// <summary>
+        /// Constructeur non paramétré.
+        /// </summary>
+        public JeuHearthstone()
+        {
+
+        }
+
+
+       #endregion
+
+        #region MÉTHODES
 
         /// <summary>
         /// Au démarrage, les données sur les héros doivent être chargées dans des tableaux d’objets, et ce, à partir du fichier XML fourni.
@@ -95,6 +101,7 @@ namespace tp2_partie1
         {
             return null;
         }
+
         /// <summary>
         /// Au démarrage, les données sur les cartes de Hearthstone doivent être chargées dans des tableaux d’objets, et ce, à partir du fichier XML fourni.
         /// </summary>
@@ -105,7 +112,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Créer un nouveau deck en respectant les règles de conception décrites
+        /// Créer un nouveau deck en respectant les règles de conception décrites.
         /// </summary>
         /// <returns></returns>
         public Deck[] AjouterUnDeck()

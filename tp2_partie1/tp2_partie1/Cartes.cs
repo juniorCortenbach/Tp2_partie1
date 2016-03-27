@@ -5,7 +5,6 @@
  */
 #endregion
 
-
 #region USING
 
 using System;
@@ -18,62 +17,65 @@ using System.Threading.Tasks;
 
 namespace tp2_partie1
 {
+    /// <summary>
+    /// Classe contenant toutes les informations relatives aux cartes.
+    /// </summary>
     public class Cartes
     {
         #region ATTRIBUTS
 
         /// <summary>
-        /// Retourne le type de la créature 
+        /// Le type de créature.
         /// </summary>
         private Type _type;
 
         /// <summary>
-        /// Retourne l'ID de la carte
+        /// L'ID de la carte.
         /// </summary>
         private string _identifiant;
 
         /// <summary>
-        /// Retourne le nom de la carte
+        /// Le nom de la carte.
         /// </summary>
         private string _nom;
 
         /// <summary>
-        /// Retourne l'extension de la carte
+        /// L'extension de la carte.
         /// </summary>
         private string _extension;
 
         /// <summary>
-        /// Retourne la rareté de la carte
+        /// La rareté de la carte.
         /// </summary>
         private string _rarete;
 
         /// <summary>
-        /// Retourne le cout de la carte
+        /// Le coût de la carte.
         /// </summary>
         private ushort _cout;
 
         /// <summary>
-        /// Retourne le texte de la carte
+        /// Le texte de la carte.
         /// </summary>
         private string _texte;
 
         /// <summary>
-        /// Retourne la class de la carte
+        /// La classede la carte.
         /// </summary>
         private string _classCarte;
 
         /// <summary>
-        /// Retourne la mécaniques de la carte
+        /// La mécaniques de la carte.
         /// </summary>
         private string _mecaniques;
 
         /// <summary>
-        /// Retourne le nombre de points d'attaque de la carte
+        /// Le nombre de points d'attaque de la carte.
         /// </summary>
         private byte _ptsAttaque;
 
         /// <summary>
-        /// Retourne le nombre de points de vie de la carte
+        /// Le nombre de points de vie de la carte.
         /// </summary>
         private byte _ptsvie; 
 
@@ -81,16 +83,16 @@ namespace tp2_partie1
         //RACE ENUM??????????????
 
         /// <summary>
-        /// Retourne les points de la durabilités de la carte
+        /// Les points de la durabilité de la carte.
         /// </summary>
         private byte _ptsDurablite;
 
         #endregion
 
-        #region ACESSEURS
+        #region PROPRIÉTÉS
 
         /// <summary>
-        /// Retourne le nom de la carte
+        /// Le nom de la carte.
         /// </summary>
         public string Nom
         {
@@ -99,7 +101,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne le cout de la carte
+        /// Le coût de la carte.
         /// </summary>
         public ushort Cout
         {
@@ -108,16 +110,16 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne le type de la créature 
+        /// Le type de créature. 
         /// </summary>
-        public Type Type1
+        public Type TypeCreature
         {
             get { return this._type; }
             set { this._type = value; }
         }
 
         /// <summary>
-        /// Retourne l'ID de la carte
+        /// L'ID de la carte.
         /// </summary>
         public string Identifiant
         {
@@ -126,7 +128,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne l'extension de la carte
+        /// L'extension de la carte.
         /// </summary>
         public string Extension
         {
@@ -135,7 +137,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne la rareté de la carte
+        /// La rareté de la carte.
         /// </summary>
         public string Rarete
         {
@@ -144,7 +146,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne le texte de la carte
+        /// Le texte de la carte.
         /// </summary>
         public string Texte
         {
@@ -153,7 +155,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne la mécaniques de la carte
+        /// Les mécaniques de la carte.
         /// </summary>
         public string Mecaniques
         {
@@ -162,7 +164,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne la class de la carte
+        /// La classe de la carte.
         /// </summary>
         public string ClassCarte
         {
@@ -171,7 +173,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne le nombre de points d'attaque de la carte
+        /// Le nombre de points d'attaque de la carte.
         /// </summary>
         public byte PtsAttaque
         {
@@ -180,7 +182,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne le nombre de points de vie de la carte
+        /// Le nombre de points de vie de la carte.
         /// </summary>
         public byte Ptsvie
         {
@@ -189,7 +191,7 @@ namespace tp2_partie1
         }
 
         /// <summary>
-        /// Retourne les points de la durabilités de la carte
+        /// Les points de la durabilité de la carte.
         /// </summary>
         public byte PtsDurablite
         {
@@ -202,15 +204,15 @@ namespace tp2_partie1
         #region CONSTRUCTEUR
 
         /// <summary>
-        /// Constructeur paramétré avec tous les attributs de la classe carte.
+        /// Constructeur paramétré avec tous les attributs de la classe Carte.
         /// </summary>
         /// <param name="type">Type de la carte</param>
-        /// <param name="identifiant">Type de l'identifiant de la carte</param>
+        /// <param name="identifiant">Identifiant de la carte</param>
         /// <param name="nom">Nom de la carte</param>
         /// <param name="extension">Extension de la carte</param>
-        /// <param name="cout">Cout de la carte</param>
+        /// <param name="cout">Coût de la carte</param>
         /// <param name="texte">Texte de la carte</param>
-        /// <param name="classCarte">Class de la carte</param>
+        /// <param name="classCarte">Classe de la carte</param>
         /// <param name="mecaniques">Mécaniques de la carte</param>
         /// <param name="ptsAttaque">Points d'attaque de la carte</param>
         /// <param name="ptsVie">Points de vie de la carte</param>
@@ -228,8 +230,8 @@ namespace tp2_partie1
             this._ptsAttaque = ptsAttaque;
             this._ptsvie = ptsVie;
             this.PtsDurablite = ptsDurabilite;
-
         }
+
        #endregion
 
     }
