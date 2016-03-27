@@ -79,7 +79,7 @@ namespace tp2_partie1
 
         #endregion
 
-        public FrmGestionCartes FrmGestionCartes
+        public FrmGestionJeu FrmGestionJeu
         {
             get
             {
@@ -90,16 +90,6 @@ namespace tp2_partie1
             }
         }
 
-        public FrmGestionDecks FrmGestionDecks
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
 
         #region CONSTRUCTEUR
         /// <summary>

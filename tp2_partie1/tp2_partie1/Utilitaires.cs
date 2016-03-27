@@ -23,13 +23,8 @@ namespace tp2_partie1
     /// </summary>
     public class Utilitaire
     {
-        #region  CONSTANTE
 
-        const string fichierCartes = "cards-collectible.xml";
-
-        #endregion
-
-        public FrmGestionCartes FrmGestionCartes
+        public FrmGestionJeu FrmGestionCartes
         {
             get
             {

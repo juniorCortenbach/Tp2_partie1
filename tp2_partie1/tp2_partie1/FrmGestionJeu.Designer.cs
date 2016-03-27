@@ -1,6 +1,6 @@
 ﻿namespace tp2_partie1
 {
-    partial class FrmGestionCartes
+    partial class FrmGestionJeu
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionCartes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionJeu));
             this.tblCarte = new System.Windows.Forms.DataGridView();
             this.btnImages = new System.Windows.Forms.Button();
             this.lblAffichage = new System.Windows.Forms.Label();

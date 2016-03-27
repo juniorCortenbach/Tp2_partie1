@@ -39,11 +39,11 @@ namespace tp2_partie1
         /// <summary>
         /// Création du Formulaire 1 avec ses propriétés
         /// </summary>
-        private readonly FrmGestionCartes _gameForm1;
+        private readonly FrmGestionJeu _gameForm1;
 
          #endregion
 
-        public FrmGestionDecks(FrmGestionCartes gameForm1)
+        public FrmGestionDecks(FrmGestionJeu gameForm1)
         {
             this._gameForm1 = gameForm1;
             InitializeComponent();
@@ -51,6 +51,17 @@ namespace tp2_partie1
         }
 
         public Utilitaire Utilitaire
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public FrmGestionJeu FrmGestionCartes
         {
             get
             {

@@ -61,11 +61,11 @@
   <ItemGroup>
     <Compile Include="Cartes.cs" />
     <Compile Include="Deck.cs" />
-    <Compile Include="FrmGestionCartes.cs">
+    <Compile Include="FrmGestionJeu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmGestionCartes.Designer.cs">
-      <DependentUpon>FrmGestionCartes.cs</DependentUpon>
+    <Compile Include="FrmGestionJeu.Designer.cs">
+      <DependentUpon>FrmGestionJeu.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmGestionDecks.cs">
       <SubType>Form</SubType>
@@ -84,8 +84,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Utilitaires.cs" />
-    <EmbeddedResource Include="FrmGestionCartes.resx">
-      <DependentUpon>FrmGestionCartes.cs</DependentUpon>
+    <EmbeddedResource Include="FrmGestionJeu.resx">
+      <DependentUpon>FrmGestionJeu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGestionDecks.resx">
       <DependentUpon>FrmGestionDecks.cs</DependentUpon>

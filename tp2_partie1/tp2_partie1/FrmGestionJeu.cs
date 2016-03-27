@@ -27,7 +27,7 @@ namespace tp2_partie1
     /// <summary>
     /// Formulaire de gestion du jeu.
     /// </summary>
-    public partial class FrmGestionCartes : Form
+    public partial class FrmGestionJeu : Form
     {
 
         #region ATTRIBUTS
@@ -74,7 +74,7 @@ namespace tp2_partie1
 
         #region MÉTHODES
 
-        public FrmGestionCartes()
+        public FrmGestionJeu()
         {
             InitializeComponent();
             ///Chargement du son lors de la sélection d'un bouton.
