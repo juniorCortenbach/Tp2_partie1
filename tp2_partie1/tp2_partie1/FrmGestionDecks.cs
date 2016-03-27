@@ -71,7 +71,6 @@ namespace tp2_partie1
                 default:
                     this.lblDeck.Text = @"Gestion de decks";
                     break;
-
             }
         }
 
@@ -140,10 +139,9 @@ namespace tp2_partie1
 
         private void btnSupprimer_Click(object sender, EventArgs e)
         {
-            this._s.Play(); //Joue du son.
+            //Joue du son.
+            this._s.Play(); 
         }
-
-
 
         private void txtNomDeck_TextChanged(object sender, EventArgs e)
         {
@@ -152,7 +150,8 @@ namespace tp2_partie1
 
         private void txtNomDeck_KeyDown(object sender, KeyEventArgs e)
         {
-            this._keyPressedSound.Play(); //Joue du sons lorsque touche appuyer
+            //Joue du son lorsque la touche est appuyée.
+            this._keyPressedSound.Play(); 
         }
 
     

@@ -45,11 +45,11 @@ namespace tp2_partie1
         /// <summary>
         /// permet de savoir quelle bouton a été cliquer. 
         /// </summary>
-        private byte _affichageSelectionner; 
-
+        private byte _affichageSelectionner;
+        #endregion
 
         #region PROPRIÉTÉS
-        
+
         /// <summary>
         /// permet de savoir quelle bouton a été cliquer. 
         /// </summary>
@@ -60,6 +60,8 @@ namespace tp2_partie1
         }
 
         #endregion
+
+        #region MÉTHODES
 
         public FrmGestionCartes()
         {
@@ -131,6 +133,6 @@ namespace tp2_partie1
             f2.Show();
         }
 
-        #endregion
+#endregion
     }
 }
