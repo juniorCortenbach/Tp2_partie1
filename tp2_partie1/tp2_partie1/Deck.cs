@@ -32,7 +32,7 @@ namespace tp2_partie1
         /// Héro (avec toutes informations du héro contenus dans 
         /// la classe Heros).
         /// </summary>
-        private Hero _hero;
+        private Heros _heros;
 
         /// <summary>
         /// Tableau de cartes.
@@ -49,10 +49,10 @@ namespace tp2_partie1
             set { this._nomDeck = value; }
         }
 
-        public Hero Hero
+        public Heros Heros
         {
-            get { return this._hero; }
-            set { this._hero = value; }
+            get { return this._heros; }
+            set { this._heros = value; }
         }
 
         public Cartes[] TabCartes

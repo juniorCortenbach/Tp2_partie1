@@ -24,7 +24,7 @@ namespace tp2_partie1
     public class Utilitaire
     {
 
-        public FrmGestionJeu FrmGestionCartes
+        public FrmGestionJeu FrmGestionJeu
         {
             get
             {

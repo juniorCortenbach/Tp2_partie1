@@ -18,7 +18,7 @@ namespace tp2_partie1
     /// <summary>
     /// Classe contenant tout le contenu relatif à un héro.
     /// </summary>
-    public class Hero
+    public class Heros
     {
         #region ATTRIBUTS
 
@@ -45,7 +45,7 @@ namespace tp2_partie1
         /// <summary>
         /// La classe du héro.
         /// </summary>
-        private string _classHero;
+        private string _classeHeros;
 
         /// <summary>
         /// Les points de vie du héro.
@@ -95,10 +95,10 @@ namespace tp2_partie1
         /// <summary>
         /// La classe du héro.
         /// </summary>
-        public string Class
+        public string Classe
         {
-            get { return this._classHero; }
-            set { this._classHero = value; }
+            get { return this._classeHeros; }
+            set { this._classeHeros = value; }
         }
 
         /// <summary>
@@ -135,13 +135,13 @@ namespace tp2_partie1
         /// <param name="rarete">Rareté du héro.</param>
         /// <param name="classHero">Classe du héro.</param>
         /// <param name="ptsVie">Points de vie du héro.</param>
-        public Hero(string identifiant, string nom, string extension, string rarete, string classHero, byte ptsVie)
+        public Heros(string identifiant, string nom, string extension, string rarete, string classHero, byte ptsVie)
         {
             this._identifiant = identifiant;
             this._nom = nom;
             this._extension = extension;
             this._rarete = rarete;
-            this._classHero = classHero;
+            this._classeHeros = classHero;
             this._ptsVie = ptsVie;
         }
 

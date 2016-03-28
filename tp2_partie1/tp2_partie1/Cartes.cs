@@ -62,7 +62,7 @@ namespace tp2_partie1
         /// <summary>
         /// La classede la carte.
         /// </summary>
-        private string _classCarte;
+        private string _classeCarte;
 
         /// <summary>
         /// La mécaniques de la carte.
@@ -77,7 +77,7 @@ namespace tp2_partie1
         /// <summary>
         /// Le nombre de points de vie de la carte.
         /// </summary>
-        private byte _ptsvie; 
+        private byte _ptsVie; 
 
 
         //RACE ENUM??????????????
@@ -85,7 +85,7 @@ namespace tp2_partie1
         /// <summary>
         /// Les points de la durabilité de la carte.
         /// </summary>
-        private byte _ptsDurablite;
+        private byte _ptsDurabilite;
 
         #endregion
 
@@ -166,10 +166,10 @@ namespace tp2_partie1
         /// <summary>
         /// La classe de la carte.
         /// </summary>
-        public string ClassCarte
+        public string ClasseCarte
         {
-            get { return this._classCarte; }
-            set { this._classCarte = value; }
+            get { return this._classeCarte; }
+            set { this._classeCarte = value; }
         }
 
         /// <summary>
@@ -184,19 +184,19 @@ namespace tp2_partie1
         /// <summary>
         /// Le nombre de points de vie de la carte.
         /// </summary>
-        public byte Ptsvie
+        public byte PtsVie
         {
-            get { return this._ptsvie; }
-            set { this._ptsvie = value; }
+            get { return this._ptsVie; }
+            set { this._ptsVie = value; }
         }
 
         /// <summary>
         /// Les points de la durabilité de la carte.
         /// </summary>
-        public byte PtsDurablite
+        public byte PtsDurabilite
         {
-            get { return this._ptsDurablite; }
-            set { this._ptsDurablite = value; }
+            get { return this._ptsDurabilite; }
+            set { this._ptsDurabilite = value; }
         }
 
         #endregion
@@ -236,11 +236,11 @@ namespace tp2_partie1
             this._extension = extension;
             this._cout = cout;
             this._texte = texte;
-            this._classCarte = classCarte;
+            this._classeCarte = classCarte;
             this._mecaniques = mecaniques;
             this._ptsAttaque = ptsAttaque;
-            this._ptsvie = ptsVie;
-            this.PtsDurablite = ptsDurabilite;
+            this._ptsVie = ptsVie;
+            this.PtsDurabilite = ptsDurabilite;
         }
 
        #endregion

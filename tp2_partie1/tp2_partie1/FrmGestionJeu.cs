@@ -51,7 +51,7 @@ namespace tp2_partie1
         #region PROPRIÉTÉS
 
         /// <summary>
-        /// permet de savoir quelle bouton a été cliquer. 
+        /// Permet de savoir quelle bouton a été cliquer. 
         /// </summary>
         public byte AffichageSelectionner
         {

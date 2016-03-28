@@ -39,12 +39,12 @@ namespace tp2_partie1
         /// <summary>
         /// Tableau d'héros.
         /// </summary>
-        private Hero[] _lesHerosDeReference;
+        private Heros[] _lesHerosDeReference;
 
         /// <summary>
         /// Tableau de cartes.
         /// </summary>
-        private Cartes[] _lesCartesDeReferences;
+        private Cartes[] _lesCartesDeReference;
 
         #endregion
 
@@ -53,7 +53,7 @@ namespace tp2_partie1
         /// <summary>
         /// Tableau d'héros.
         /// </summary>
-        public Hero[] LesHeros
+        public Heros[] LesHeros
         {
             get { return this._lesHerosDeReference; }
             private set { this._lesHerosDeReference = value; }
@@ -73,8 +73,8 @@ namespace tp2_partie1
         /// </summary>
         public Cartes[] LesCartes
         {
-            get { return this._lesCartesDeReferences; }
-            set { this._lesCartesDeReferences = value; }
+            get { return this._lesCartesDeReference; }
+            set { this._lesCartesDeReference = value; }
         }
 
         #endregion
@@ -109,7 +109,7 @@ namespace tp2_partie1
         /// Au démarrage, les données sur les héros doivent être chargées dans des tableaux d’objets, et ce, à partir du fichier XML fourni.
         /// </summary>
         /// <returns></returns>
-        public Hero[] ChargerXmlHeros()
+        public Heros[] ChargerXmlHeros()
         {
             return null;
         }

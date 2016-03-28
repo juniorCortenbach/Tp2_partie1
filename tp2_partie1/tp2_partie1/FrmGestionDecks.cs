@@ -37,7 +37,7 @@ namespace tp2_partie1
         //private SoundPlayer _keyPressedSound = new SoundPlayer(tp2_partie1.Properties.Resources.keyPressed);
         
         /// <summary>
-        /// Création du Formulaire 1 avec ses propriétés
+        /// Création du Formulaire 1 avec ses propriétés.
         /// </summary>
         private readonly FrmGestionJeu _gameForm1;
 
@@ -61,7 +61,7 @@ namespace tp2_partie1
             }
         }
 
-        public FrmGestionJeu FrmGestionCartes
+        public FrmGestionJeu FrmGestionJeu
         {
             get
             {
