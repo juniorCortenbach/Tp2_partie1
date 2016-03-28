@@ -23,7 +23,6 @@ namespace tp2_partie1
     /// </summary>
     public class Utilitaire
     {
-
         public FrmGestionJeu FrmGestionJeu
         {
             get
@@ -34,7 +33,6 @@ namespace tp2_partie1
             {
             }
         }
-
 
         #region MÉTHODES
 

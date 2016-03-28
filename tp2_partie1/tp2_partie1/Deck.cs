@@ -63,7 +63,6 @@ namespace tp2_partie1
 
         #endregion
 
-
         public JeuHearthstone JeuHearthstone
         {
             get

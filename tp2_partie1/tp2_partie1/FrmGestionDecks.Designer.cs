@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lblDeck = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblHerosDeck = new System.Windows.Forms.Label();
             this.cmbHéros = new System.Windows.Forms.ComboBox();
             this.lblNomDeck = new System.Windows.Forms.Label();
             this.txtNomDeck = new System.Windows.Forms.TextBox();
@@ -42,7 +42,7 @@
             this.tblDeck = new System.Windows.Forms.DataGridView();
             this.btnSupprimer = new System.Windows.Forms.Button();
             this.cmbCartes = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblChoisirCarte = new System.Windows.Forms.Label();
             this.lblGestionCartes = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imgDeck)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblDeck)).BeginInit();
@@ -59,17 +59,17 @@
             this.lblDeck.TabIndex = 0;
             this.lblDeck.Text = "Gérer un Deck";
             // 
-            // label1
+            // lblHerosDeck
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(63, 143);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Choisisez votre héro :";
+            this.lblHerosDeck.AutoSize = true;
+            this.lblHerosDeck.BackColor = System.Drawing.Color.Transparent;
+            this.lblHerosDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblHerosDeck.ForeColor = System.Drawing.Color.White;
+            this.lblHerosDeck.Location = new System.Drawing.Point(63, 143);
+            this.lblHerosDeck.Name = "lblHerosDeck";
+            this.lblHerosDeck.Size = new System.Drawing.Size(160, 20);
+            this.lblHerosDeck.TabIndex = 2;
+            this.lblHerosDeck.Text = "Choisisez votre héro :";
             // 
             // cmbHéros
             // 
@@ -191,17 +191,17 @@
             this.cmbCartes.TabIndex = 15;
             this.cmbCartes.SelectedIndexChanged += new System.EventHandler(this.cmbCartes_SelectedIndexChanged);
             // 
-            // label2
+            // lblChoisirCarte
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(891, 105);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 20);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Choisisez votre cartes :";
+            this.lblChoisirCarte.AutoSize = true;
+            this.lblChoisirCarte.BackColor = System.Drawing.Color.Transparent;
+            this.lblChoisirCarte.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblChoisirCarte.ForeColor = System.Drawing.Color.White;
+            this.lblChoisirCarte.Location = new System.Drawing.Point(891, 105);
+            this.lblChoisirCarte.Name = "lblChoisirCarte";
+            this.lblChoisirCarte.Size = new System.Drawing.Size(164, 20);
+            this.lblChoisirCarte.TabIndex = 14;
+            this.lblChoisirCarte.Text = "Choisisez votre carte :";
             // 
             // lblGestionCartes
             // 
@@ -223,7 +223,7 @@
             this.ClientSize = new System.Drawing.Size(1103, 532);
             this.Controls.Add(this.lblGestionCartes);
             this.Controls.Add(this.cmbCartes);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblChoisirCarte);
             this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.imgDeck);
             this.Controls.Add(this.tblDeck);
@@ -235,7 +235,7 @@
             this.Controls.Add(this.txtNomDeck);
             this.Controls.Add(this.lblNomDeck);
             this.Controls.Add(this.cmbHéros);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblHerosDeck);
             this.Controls.Add(this.lblDeck);
             this.Name = "FrmGestionDecks";
             this.Text = "Jeu HeartStone";
@@ -250,7 +250,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblDeck;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblHerosDeck;
         private System.Windows.Forms.ComboBox cmbHéros;
         private System.Windows.Forms.Label lblNomDeck;
         private System.Windows.Forms.TextBox txtNomDeck;
@@ -263,7 +263,7 @@
         private System.Windows.Forms.DataGridView tblDeck;
         private System.Windows.Forms.Button btnSupprimer;
         private System.Windows.Forms.ComboBox cmbCartes;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblChoisirCarte;
         private System.Windows.Forms.Label lblGestionCartes;
     }
 }

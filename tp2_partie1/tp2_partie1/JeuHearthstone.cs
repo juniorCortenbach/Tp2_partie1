@@ -22,10 +22,10 @@ namespace tp2_partie1
     public class JeuHearthstone
     {
         #region CONSTANTE
-        /// <summary>
-        /// Constante qui contient le fichier .xml et donc les informations concernant les cartes et les héros.
-        /// </summary>
-        public const string FichierCartesHeros = "cards-collectible.xml";  
+        ///// <summary>
+        ///// Constante qui contient le fichier .xml et donc les informations concernant les cartes et les héros.
+        ///// </summary>
+        //public const string FichierCartesHeros = "cards-collectible.xml";  
 
         #endregion
 
@@ -89,7 +89,6 @@ namespace tp2_partie1
             {
             }
         }
-
 
         #region CONSTRUCTEUR
         /// <summary>

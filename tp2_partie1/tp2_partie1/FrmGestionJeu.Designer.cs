@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionJeu));
             this.tblCarte = new System.Windows.Forms.DataGridView();
+            this.nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Etc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnImages = new System.Windows.Forms.Button();
             this.lblAffichage = new System.Windows.Forms.Label();
             this.btnTablau = new System.Windows.Forms.Button();
             this.imgCartes = new System.Windows.Forms.PictureBox();
             this.btnCréer = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblGestionDecks = new System.Windows.Forms.Label();
             this.btnModifier = new System.Windows.Forms.Button();
-            this.lblDeck = new System.Windows.Forms.Label();
-            this.nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Etc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblTitreJeu = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tblCarte)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCartes)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +57,21 @@
             this.tblCarte.Name = "tblCarte";
             this.tblCarte.Size = new System.Drawing.Size(450, 340);
             this.tblCarte.TabIndex = 0;
+            // 
+            // nom
+            // 
+            this.nom.HeaderText = "nom";
+            this.nom.Name = "nom";
+            // 
+            // Type
+            // 
+            this.Type.HeaderText = "Type";
+            this.Type.Name = "Type";
+            // 
+            // Etc
+            // 
+            this.Etc.HeaderText = "Etc";
+            this.Etc.Name = "Etc";
             // 
             // btnImages
             // 
@@ -76,9 +91,9 @@
             this.lblAffichage.ForeColor = System.Drawing.Color.White;
             this.lblAffichage.Location = new System.Drawing.Point(98, 12);
             this.lblAffichage.Name = "lblAffichage";
-            this.lblAffichage.Size = new System.Drawing.Size(77, 20);
+            this.lblAffichage.Size = new System.Drawing.Size(85, 20);
             this.lblAffichage.TabIndex = 2;
-            this.lblAffichage.Text = "Affichage";
+            this.lblAffichage.Text = "Affichage :";
             // 
             // btnTablau
             // 
@@ -108,17 +123,17 @@
             this.btnCréer.UseVisualStyleBackColor = true;
             this.btnCréer.Click += new System.EventHandler(this.btnCréer_Click);
             // 
-            // label1
+            // lblGestionDecks
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(71, 107);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 20);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Gestion des decks";
+            this.lblGestionDecks.AutoSize = true;
+            this.lblGestionDecks.BackColor = System.Drawing.Color.Transparent;
+            this.lblGestionDecks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGestionDecks.ForeColor = System.Drawing.Color.White;
+            this.lblGestionDecks.Location = new System.Drawing.Point(71, 107);
+            this.lblGestionDecks.Name = "lblGestionDecks";
+            this.lblGestionDecks.Size = new System.Drawing.Size(141, 20);
+            this.lblGestionDecks.TabIndex = 6;
+            this.lblGestionDecks.Text = "Gestion des decks";
             // 
             // btnModifier
             // 
@@ -130,31 +145,16 @@
             this.btnModifier.UseVisualStyleBackColor = true;
             this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
             // 
-            // lblDeck
+            // lblTitreJeu
             // 
-            this.lblDeck.AutoSize = true;
-            this.lblDeck.BackColor = System.Drawing.Color.Transparent;
-            this.lblDeck.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeck.Location = new System.Drawing.Point(430, 24);
-            this.lblDeck.Name = "lblDeck";
-            this.lblDeck.Size = new System.Drawing.Size(203, 31);
-            this.lblDeck.TabIndex = 8;
-            this.lblDeck.Text = "Jeu HeartStone";
-            // 
-            // nom
-            // 
-            this.nom.HeaderText = "nom";
-            this.nom.Name = "nom";
-            // 
-            // Type
-            // 
-            this.Type.HeaderText = "Type";
-            this.Type.Name = "Type";
-            // 
-            // Etc
-            // 
-            this.Etc.HeaderText = "Etc";
-            this.Etc.Name = "Etc";
+            this.lblTitreJeu.AutoSize = true;
+            this.lblTitreJeu.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitreJeu.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitreJeu.Location = new System.Drawing.Point(430, 24);
+            this.lblTitreJeu.Name = "lblTitreJeu";
+            this.lblTitreJeu.Size = new System.Drawing.Size(203, 31);
+            this.lblTitreJeu.TabIndex = 8;
+            this.lblTitreJeu.Text = "Jeu HeartStone";
             // 
             // FrmGestionJeu
             // 
@@ -162,9 +162,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(974, 532);
-            this.Controls.Add(this.lblDeck);
+            this.Controls.Add(this.lblTitreJeu);
             this.Controls.Add(this.btnModifier);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblGestionDecks);
             this.Controls.Add(this.btnCréer);
             this.Controls.Add(this.imgCartes);
             this.Controls.Add(this.btnTablau);
@@ -189,9 +189,9 @@
         private System.Windows.Forms.Button btnTablau;
         private System.Windows.Forms.PictureBox imgCartes;
         private System.Windows.Forms.Button btnCréer;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblGestionDecks;
         private System.Windows.Forms.Button btnModifier;
-        private System.Windows.Forms.Label lblDeck;
+        private System.Windows.Forms.Label lblTitreJeu;
         private System.Windows.Forms.DataGridViewTextBoxColumn nom;
         private System.Windows.Forms.DataGridViewTextBoxColumn Type;
         private System.Windows.Forms.DataGridViewTextBoxColumn Etc;
