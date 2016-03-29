@@ -50,17 +50,6 @@ namespace tp2_partie1
 
         }
 
-        public Utilitaire Utilitaire
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
         public FrmGestionJeu FrmGestionJeu
         {
             get

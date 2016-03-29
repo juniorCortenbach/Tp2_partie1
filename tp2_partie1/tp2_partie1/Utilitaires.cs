@@ -23,16 +23,6 @@ namespace tp2_partie1
     /// </summary>
     public class Utilitaire
     {
-        public FrmGestionJeu FrmGestionJeu
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
 
         #region MÉTHODES
 
